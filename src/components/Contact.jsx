@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Send, MapPin, Phone, ExternalLink, CheckCircle, AlertCircle } from 'lucide-react';
+import { Mail, Send, MapPin, Phone, ExternalLink, CheckCircle, AlertCircle, Calendar } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Input } from './ui/input';
@@ -15,6 +15,24 @@ export function Contact() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
+
+  useEffect(() => {
+    const calendlySrc = 'https://assets.calendly.com/assets/external/widget.js';
+    if (!document.querySelector(`script[src="${calendlySrc}"]`)) {
+      const script = document.createElement('script');
+      script.src = calendlySrc;
+      script.async = true;
+      document.body.appendChild(script);
+    }
+
+    const calendlyStyles = 'https://assets.calendly.com/assets/external/widget.css';
+    if (!document.querySelector(`link[href="${calendlyStyles}"]`)) {
+      const link = document.createElement('link');
+      link.href = calendlyStyles;
+      link.rel = 'stylesheet';
+      document.head.appendChild(link);
+    }
+  }, []);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -59,6 +77,16 @@ export function Contact() {
       action: null
     }
   ];
+
+  const calendlyUrl = 'https://calendly.com/krishankshh54/30min?hide_event_type_details=1&hide_gdpr_banner=1';
+
+  const handleOpenCalendly = () => {
+    if (window.Calendly && typeof window.Calendly.initPopupWidget === 'function') {
+      window.Calendly.initPopupWidget({ url: calendlyUrl });
+    } else {
+      window.open(calendlyUrl, '_blank', 'noopener,noreferrer');
+    }
+  };
 
   const services = [
     'RPM AI Educator Assistant',
@@ -260,6 +288,32 @@ export function Contact() {
                       )}
                     </motion.div>
                   ))}
+                </CardContent>
+              </Card>
+            </motion.div>
+
+            {/* Calendly Scheduler */}
+            {/* Calendly Call-to-Action */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              viewport={{ once: true }}
+            >
+              <Card className="bg-card/50 backdrop-blur-sm border-primary/40">
+                <CardContent className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                  <div className="space-y-1">
+                    <h3 className="text-lg font-semibold text-foreground">Schedule a Consultation</h3>
+                    <p className="text-sm text-muted-foreground">Pick a time that works for you and we'll connect right away.</p>
+                  </div>
+                  <Button
+                    type="button"
+                    onClick={handleOpenCalendly}
+                    className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25 transition-colors duration-300 self-start sm:self-auto"
+                  >
+                    <Calendar className="h-4 w-4" />
+                    Book meeting via calendly
+                  </Button>
                 </CardContent>
               </Card>
             </motion.div>
