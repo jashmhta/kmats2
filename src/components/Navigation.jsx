@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, ExternalLink } from 'lucide-react';
 import { Button } from './ui/button';
 import { ThemeToggle } from './ThemeToggle';
@@ -7,6 +8,8 @@ import kmatsLogo from '../assets/images/kmats_logo.png';
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,12 +28,22 @@ export function Navigation() {
     { name: 'Contact', href: '#contact' },
   ];
 
-  const scrollToSection = (href) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+  const handleSectionNavigation = (href) => {
+    const scroll = () => {
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
     setIsOpen(false);
+
+    if (location.pathname !== '/') {
+      navigate('/', { state: { scrollTo: href } });
+      return;
+    }
+
+    scroll();
   };
 
   return (
@@ -54,7 +67,7 @@ export function Navigation() {
               {navItems.map((item) => (
                 <button
                   key={item.name}
-                  onClick={() => scrollToSection(item.href)}
+                  onClick={() => handleSectionNavigation(item.href)}
                   className="text-foreground hover:text-primary transition-colors duration-300 px-3 py-2 text-sm font-medium relative group cursor-pointer"
                 >
                   {item.name}
@@ -96,7 +109,7 @@ export function Navigation() {
               {navItems.map((item) => (
                 <button
                   key={item.name}
-                  onClick={() => scrollToSection(item.href)}
+                  onClick={() => handleSectionNavigation(item.href)}
                   className="text-foreground hover:text-primary hover:bg-primary/10 block px-4 py-3 text-base font-medium w-full text-left transition-all duration-300 rounded-md cursor-pointer"
                 >
                   {item.name}

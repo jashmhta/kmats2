@@ -1,14 +1,17 @@
 import { useEffect } from 'react';
 import ReactGA from "react-ga4";
+import { Routes, Route } from 'react-router-dom';
 import { Navigation } from './components/Navigation';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Services } from './components/Services';
-import { Companies } from './components/Companies';
-import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { AnimatedBackground } from './components/AnimatedBackground';
 import { useTheme } from './hooks/useTheme';
+import { Home } from './pages/Home';
+import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { TermsOfService } from './pages/TermsOfService';
+import { AIEthicsDataPolicy } from './pages/AIEthicsDataPolicy';
+import { IntellectualPropertyPolicy } from './pages/IntellectualPropertyPolicy';
+import { NdaPolicy } from './pages/NdaPolicy';
+import { ScrollToTop } from './components/ScrollToTop';
 import './App.css';
 
 function App() {
@@ -38,12 +41,16 @@ function App() {
     <div className="min-h-screen bg-background text-foreground">
       <AnimatedBackground />
       <Navigation />
+      <ScrollToTop />
       <main>
-        <Hero />
-        <About />
-        <Services />
-        <Companies />
-        <Contact />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/ai-ethics-data-policy" element={<AIEthicsDataPolicy />} />
+          <Route path="/intellectual-property-policy" element={<IntellectualPropertyPolicy />} />
+          <Route path="/nda" element={<NdaPolicy />} />
+        </Routes>
       </main>
       <Footer />
     </div>
