@@ -61,8 +61,8 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'krishankshh54@gmail.com',
-      action: () => window.open('mailto:krishankshh54@gmail.com', '_blank')
+      value: 'krishankshah@kmats.in',
+      action: () => window.open('mailto:krishankshah@kmats.in', '_blank')
     },
     {
       icon: ExternalLink,

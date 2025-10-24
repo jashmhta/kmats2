@@ -97,11 +97,11 @@ export function Footer() {
               <Button
                 variant="ghost"
                 size="sm"
-                onClick={() => window.open('mailto:krishankshh54@gmail.com', '_blank')}
+                onClick={() => window.open('mailto:krishankshah@kmats.in', '_blank')}
                 className="justify-start p-0 h-auto text-muted-foreground hover:text-primary transition-colors duration-300"
               >
                 <Mail className="h-4 w-4 mr-2" />
-                krishankshh54@gmail.com
+                krishankshah@kmats.in
               </Button>
               <Button
                 variant="ghost"

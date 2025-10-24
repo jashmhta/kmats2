@@ -104,10 +104,10 @@ export function PrivacyPolicy() {
         <p>
           If you have questions about this Privacy Policy or our data practices, email{' '}
           <a
-            href="mailto:krishankshh54@gmail.com"
+            href="mailto:krishankshah@kmats.in"
             className="text-primary hover:text-primary/80 transition-colors duration-300"
           >
-            krishankshh54@gmail.com
+            krishankshah@kmats.in
           </a>
           . We aim to respond to all privacy enquiries within two business days.
         </p>
