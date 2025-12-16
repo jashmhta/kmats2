@@ -1,10 +1,14 @@
 import { ArrowRight, Sparkles, Zap, Globe } from 'lucide-react';
 import { Button } from './ui/button';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import futuristicBg from '../assets/images/futuristic_ai_background.jpg';
 import kmatsLogo from '../assets/images/kmats_logo.png';
 
 export function Hero() {
+  // Parallax effect for background
+  const { scrollY } = useScroll();
+  const backgroundY = useTransform(scrollY, [0, 500], [0, 150]);
+  
   const scrollToSection = (sectionId) => {
     const element = document.querySelector(sectionId);
     if (element) {
@@ -63,16 +67,19 @@ export function Hero() {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden" role="banner">
+      {/* Background Image with Overlay and Parallax */}
+      <motion.div 
+        className="absolute inset-0 z-0"
+        style={{ y: backgroundY }}
+      >
         <img 
           src={futuristicBg} 
-          alt="Futuristic AI Background"
+          alt="Futuristic AI technology background with neural networks and digital patterns"
           className="w-full h-full object-cover opacity-15"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-background/95 via-background/90 to-background/95"></div>
-      </div>
+      </motion.div>
 
       {/* Subtle geometric pattern overlay */}
       <div className="absolute inset-0 opacity-5 z-10">
@@ -97,8 +104,8 @@ export function Hero() {
           >
             <motion.img 
               src={kmatsLogo} 
-              alt="KMATS Logo" 
-              className="h-24 sm:h-32 md:h-40 lg:h-48 xl:h-56 w-auto object-contain filter drop-shadow-2xl"
+              alt="KMATS - Knowledge Management and AI Technology Solutions logo" 
+              className="h-24 sm:h-32 md:h-40 lg:h-48 w-auto object-contain filter drop-shadow-2xl"
               whileHover={{ 
                 scale: 1.05,
                 transition: { duration: 0.3 }
@@ -131,15 +138,13 @@ export function Hero() {
               variants={itemVariants}
               className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
             >
-              One Founder. One Family. One Global Mission.
-              <br />
               <motion.span 
-                className="text-primary font-medium"
+                className="text-primary font-semibold block"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 1.2 }}
               >
-                Solo-Built. Family-Backed. World-Focused.
+                Solo-Built. Family-Backed. World-Ready.
               </motion.span>
             </motion.p>
           </motion.div>
@@ -165,7 +170,7 @@ export function Hero() {
                   scale: 1.02,
                   transition: { duration: 0.3 }
                 }}
-                className="bg-card/60 backdrop-blur-sm border border-border/50 rounded-xl p-6 hover:bg-card/80 transition-all duration-300 group cursor-pointer"
+                className="bg-card/60 backdrop-blur-sm border border-border/50 rounded-xl p-6 hover:bg-card/80 transition-all duration-300 group cursor-pointer feature-card-glow"
               >
                 <motion.div
                   whileHover={{ rotate: 360 }}

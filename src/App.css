@@ -348,3 +348,168 @@
   }
 }
 
+/* Mobile menu slide-in animation */
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutToRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.slide-in {
+  animation: slideInFromRight 0.3s ease-out forwards;
+}
+
+.slide-out {
+  animation: slideOutToRight 0.3s ease-out forwards;
+}
+
+/* Enhanced focus states for accessibility */
+*:focus-visible {
+  outline: 2px solid oklch(0.7 0.3 180);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.dark *:focus-visible {
+  outline-color: oklch(0.7 0.3 180);
+}
+
+/* Dark mode card glow effect */
+.dark .feature-card-glow {
+  box-shadow: 
+    0 0 15px oklch(0.7 0.3 180 / 0.15),
+    0 0 30px oklch(0.7 0.3 180 / 0.1),
+    inset 0 0 20px oklch(0.7 0.3 180 / 0.05);
+}
+
+.dark .feature-card-glow:hover {
+  box-shadow: 
+    0 0 20px oklch(0.7 0.3 180 / 0.25),
+    0 0 40px oklch(0.7 0.3 180 / 0.15),
+    inset 0 0 25px oklch(0.7 0.3 180 / 0.08);
+}
+
+/* Loading skeleton */
+@keyframes skeleton-loading {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    oklch(0.96 0 0) 25%,
+    oklch(0.98 0 0) 50%,
+    oklch(0.96 0 0) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s ease-in-out infinite;
+}
+
+.dark .skeleton {
+  background: linear-gradient(
+    90deg,
+    oklch(0.08 0 0) 25%,
+    oklch(0.12 0 0) 50%,
+    oklch(0.08 0 0) 75%
+  );
+}
+
+/* Performance optimization */
+.will-change-transform {
+  will-change: transform;
+}
+
+.will-change-opacity {
+  will-change: opacity;
+}
+
+/* Standardized gradients */
+.gradient-primary {
+  background: linear-gradient(135deg, 
+    oklch(0.7 0.3 180) 0%, 
+    oklch(0.7 0.3 140) 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, 
+    oklch(0.65 0.25 160) 0%, 
+    oklch(0.7 0.3 200) 100%);
+}
+
+/* Field validation states */
+.field-valid {
+  border-color: oklch(0.6 0.15 140) !important;
+}
+
+.field-invalid {
+  border-color: oklch(0.577 0.245 27.325) !important;
+}
+
+.field-valid:focus {
+  box-shadow: 0 0 0 3px oklch(0.6 0.15 140 / 0.2);
+}
+
+.field-invalid:focus {
+  box-shadow: 0 0 0 3px oklch(0.577 0.245 27.325 / 0.2);
+}
+
+/* Timeline connector */
+.timeline-connector {
+  position: relative;
+}
+
+.timeline-connector::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, 
+    transparent 0%, 
+    oklch(0.7 0.3 180 / 0.3) 20%, 
+    oklch(0.7 0.3 180 / 0.3) 80%, 
+    transparent 100%
+  );
+}
+
+/* Active nav indicator */
+.nav-active {
+  color: oklch(0.7 0.3 180) !important;
+}
+
+.nav-active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: oklch(0.7 0.3 180);
+}
+
+.dark .nav-active {
+  color: oklch(0.7 0.3 180) !important;
+}
+

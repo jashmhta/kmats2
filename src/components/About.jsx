@@ -112,9 +112,9 @@ export function About() {
                 animate={isInView ? { opacity: 1 } : { opacity: 0 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
               >
-                The name itself honors the people who shaped this journey :  <strong className="text-primary">K</strong>rishank (Founder), 
-                <strong className="text-primary"> M</strong>itrank (Brother), {/* <strong className="text-primary">M</strong>adhulika (partner) ,*/} 
-                <strong className="text-primary"> A</strong>rchana (Mother), <strong className="text-primary">T</strong>ushar (Father), 
+                The name itself honors the people who shaped this journey: <strong className="text-primary">K</strong>rishank (Founder), 
+                <strong className="text-primary">M</strong>itrank (Brother), 
+                <strong className="text-primary">A</strong>rchana (Mother), <strong className="text-primary">T</strong>ushar (Father), 
                 and <strong className="text-primary">S</strong>hah (Surname).
               </motion.p>
               <motion.p
@@ -195,7 +195,7 @@ export function About() {
                   transition: { duration: 0.3 }
                 }}
               >
-                <Card className="bg-card/60 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300 group h-full cursor-pointer">
+                <Card className="bg-card/60 backdrop-blur-sm border-border/50 hover:border-primary/50 hover:bg-card/80 transition-all duration-300 group h-full cursor-pointer">
                   <CardContent className="p-6 text-center">
                     <motion.div
                       whileHover={{ 

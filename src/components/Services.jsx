@@ -307,7 +307,7 @@ export function Services() {
                   transition: { duration: 0.3 }
                 }}
               >
-                <Card className="bg-card/60 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300 group h-full cursor-pointer">
+                <Card className="bg-card/40 backdrop-blur-sm border-border/30 hover:border-primary/40 hover:bg-card/60 transition-all duration-300 group h-full cursor-pointer">
                   <CardContent className="p-6 text-center">
                     <motion.div
                       whileHover={{ 
@@ -336,11 +336,12 @@ export function Services() {
         >
           <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl p-8 border border-primary/20 hover:border-primary/30 transition-all duration-500">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Ready to Transform Your Business?
+              Ready to Elevate Your Education or Business?
             </h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Let's discuss how KMATS can help you leverage AI and technology to achieve your goals. 
-              Get in touch for a personalized consultation.
+              Whether you need AI-powered education solutions with RPM or expert tech consultancy 
+              for your global business, KMATS is here to help. Let's discuss how we can bring 
+              innovation to your projects.
             </p>
             <motion.div
               whileHover={{ scale: 1.05 }}
