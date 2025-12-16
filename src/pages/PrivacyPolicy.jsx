@@ -1,8 +1,23 @@
+import { SEO } from '../components/SEO';
+import { generateBreadcrumbSchema } from '../components/StructuredData';
 import { PolicyLayout, PolicySection, PolicyKeyPoints } from './PolicyLayout';
 
 export function PrivacyPolicy() {
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Privacy Policy', url: '/privacy-policy' }
+  ]);
+
   return (
-    <PolicyLayout
+    <>
+      <SEO
+        title="Privacy Policy - KMATS"
+        description="KMATS privacy policy outlining how we collect, use, and protect your personal information. Learn about data security, GDPR compliance, and your privacy rights."
+        keywords="privacy policy, data protection, GDPR, DPDP Act, data security, KMATS"
+        path="/privacy-policy"
+        structuredData={breadcrumbSchema}
+      />
+      <PolicyLayout
       title="Privacy Policy"
       description="How KMATS collects, uses, and protects the information entrusted to us."
       lastUpdated="October 13, 2025"
@@ -112,6 +127,7 @@ export function PrivacyPolicy() {
           . We aim to respond to all privacy enquiries within two business days.
         </p>
       </PolicySection>
-    </PolicyLayout>
+      </PolicyLayout>
+    </>
   );
 }

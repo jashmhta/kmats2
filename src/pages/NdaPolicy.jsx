@@ -1,8 +1,23 @@
+import { SEO } from '../components/SEO';
+import { generateBreadcrumbSchema } from '../components/StructuredData';
 import { PolicyLayout, PolicySection, PolicyKeyPoints } from './PolicyLayout';
 
 export function NdaPolicy() {
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'NDA Policy', url: '/nda' }
+  ]);
+
   return (
-    <PolicyLayout
+    <>
+      <SEO
+        title="NDA Policy - KMATS"
+        description="Non-disclosure agreement terms for confidential business relationships. Learn about mutual protection, confidentiality obligations, and access control."
+        keywords="NDA, non-disclosure agreement, confidentiality, privacy, KMATS"
+        path="/nda"
+        structuredData={breadcrumbSchema}
+      />
+      <PolicyLayout
       title="Non-Disclosure Agreement (NDA)"
       description="The confidentiality commitments that govern how KMATS safeguards sensitive information."
       lastUpdated="October 13, 2025"
@@ -70,6 +85,7 @@ export function NdaPolicy() {
           so prospective clients can review our privacy-first approach before engaging with KMATS.
         </p>
       </PolicySection>
-    </PolicyLayout>
+      </PolicyLayout>
+    </>
   );
 }

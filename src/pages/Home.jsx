@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { SEO } from '../components/SEO';
+import { homepageSchemas } from '../components/StructuredData';
 import { Hero } from '../components/Hero';
 import { About } from '../components/About';
 import { Services } from '../components/Services';
@@ -30,6 +32,13 @@ export function Home() {
 
   return (
     <>
+      <SEO
+        title="KMATS - AI & Technology Solutions | Building Tomorrow's Intelligence"
+        description="Leading AI consultancy delivering cutting-edge solutions in machine learning, automation, and digital transformation. Partner with KMATS for innovative technology services."
+        keywords="AI consultancy, machine learning, automation, digital transformation, technology solutions, artificial intelligence, tech consulting, KMATS"
+        path="/"
+        structuredData={homepageSchemas}
+      />
       <Hero />
       <About />
       <Services />

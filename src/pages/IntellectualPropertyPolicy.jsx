@@ -1,8 +1,23 @@
+import { SEO } from '../components/SEO';
+import { generateBreadcrumbSchema } from '../components/StructuredData';
 import { PolicyLayout, PolicySection, PolicyKeyPoints } from './PolicyLayout';
 
 export function IntellectualPropertyPolicy() {
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Intellectual Property Policy', url: '/intellectual-property-policy' }
+  ]);
+
   return (
-    <PolicyLayout
+    <>
+      <SEO
+        title="Intellectual Property Policy - KMATS"
+        description="KMATS intellectual property rights and licensing terms. Learn about ownership structure, open-source compliance, and brand usage guidelines."
+        keywords="intellectual property, IP policy, licensing, ownership, trademarks, KMATS"
+        path="/intellectual-property-policy"
+        structuredData={breadcrumbSchema}
+      />
+      <PolicyLayout
       title="Intellectual Property Policy"
       description="How KMATS protects creative assets, proprietary tools, and co-developed solutions."
       lastUpdated="October 13, 2025"
@@ -56,6 +71,7 @@ export function IntellectualPropertyPolicy() {
           access to sensitive assets.
         </p>
       </PolicySection>
-    </PolicyLayout>
+      </PolicyLayout>
+    </>
   );
 }

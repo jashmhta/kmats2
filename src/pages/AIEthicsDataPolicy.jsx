@@ -1,8 +1,23 @@
+import { SEO } from '../components/SEO';
+import { generateBreadcrumbSchema } from '../components/StructuredData';
 import { PolicyLayout, PolicySection, PolicyKeyPoints } from './PolicyLayout';
 
 export function AIEthicsDataPolicy() {
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'AI Ethics & Data Policy', url: '/ai-ethics-data-policy' }
+  ]);
+
   return (
-    <PolicyLayout
+    <>
+      <SEO
+        title="AI Ethics & Data Policy - KMATS"
+        description="Our commitment to ethical AI development and responsible data handling practices. Learn about fairness, transparency, accountability, and privacy in AI solutions."
+        keywords="AI ethics, data policy, ethical AI, responsible AI, fairness, transparency, KMATS"
+        path="/ai-ethics-data-policy"
+        structuredData={breadcrumbSchema}
+      />
+      <PolicyLayout
       title="AI Ethics & Data Policy"
       description="Our commitments to responsible innovation, data stewardship, and transparent AI delivery."
       lastUpdated="October 13, 2025"
@@ -57,6 +72,7 @@ export function AIEthicsDataPolicy() {
           ]}
         />
       </PolicySection>
-    </PolicyLayout>
+      </PolicyLayout>
+    </>
   );
 }

@@ -4,13 +4,76 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- 
+  KMATS - Knowledge Management & Technology Solutions
+  Sitemap Generated: December 16, 2024
+  
+  Priority Scale:
+  - 1.0: Most important pages (Homepage)
+  - 0.8: High priority pages (Core services/marketplace)
+  - 0.6: Important pages (Policies, legal)
+  - 0.4-0.5: Moderate priority
+  
+  Change Frequency Guide:
+  - always: Changes every time it's accessed
+  - hourly: Changes hourly
+  - daily: Changes daily
+  - weekly: Changes weekly
+  - monthly: Changes monthly
+  - yearly: Changes yearly
+  - never: Archived content
+-->
 
-
+<!-- Homepage - Highest Priority -->
 <url>
   <loc>https://kmats.in/</loc>
-  <lastmod>2025-10-13T13:38:29+00:00</lastmod>
+  <lastmod>2024-12-16</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
 </url>
 
+<!-- Marketplace - High Priority -->
+<url>
+  <loc>https://kmats.in/marketplace</loc>
+  <lastmod>2024-12-16</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<!-- Legal & Policy Pages - Important for Compliance -->
+<url>
+  <loc>https://kmats.in/privacy-policy</loc>
+  <lastmod>2024-12-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+
+<url>
+  <loc>https://kmats.in/terms-of-service</loc>
+  <lastmod>2024-12-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+
+<url>
+  <loc>https://kmats.in/ai-ethics-data-policy</loc>
+  <lastmod>2024-12-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+
+<url>
+  <loc>https://kmats.in/intellectual-property-policy</loc>
+  <lastmod>2024-12-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+
+<url>
+  <loc>https://kmats.in/nda</loc>
+  <lastmod>2024-12-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
 
 </urlset>

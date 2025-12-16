@@ -1,8 +1,23 @@
+import { SEO } from '../components/SEO';
+import { generateBreadcrumbSchema } from '../components/StructuredData';
 import { PolicyLayout, PolicySection, PolicyKeyPoints } from './PolicyLayout';
 
 export function TermsOfService() {
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Terms of Service', url: '/terms-of-service' }
+  ]);
+
   return (
-    <PolicyLayout
+    <>
+      <SEO
+        title="Terms of Service - KMATS"
+        description="Terms and conditions for using KMATS services and products. Understand engagement frameworks, payments, intellectual property, and acceptable use policies."
+        keywords="terms of service, terms and conditions, service agreement, KMATS"
+        path="/terms-of-service"
+        structuredData={breadcrumbSchema}
+      />
+      <PolicyLayout
       title="Terms of Service"
       description="Understand the commitments that guide every KMATS engagement."
       lastUpdated="October 13, 2025"
@@ -88,6 +103,7 @@ export function TermsOfService() {
           alternative venue.
         </p>
       </PolicySection>
-    </PolicyLayout>
+      </PolicyLayout>
+    </>
   );
 }

@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { ExternalLink, Code, Sparkles, CheckCircle, X, Layout } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
+import { SEO } from '../components/SEO';
+import { generateBreadcrumbSchema } from '../components/StructuredData';
 import estatePreview from '../assets/images/templates/estate.png';
 
 export function Marketplace() {
@@ -69,8 +71,21 @@ export function Marketplace() {
     }
   };
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Marketplace', url: '/marketplace' }
+  ]);
+
   return (
-    <div className="min-h-screen pt-20 pb-20 bg-background">
+    <>
+      <SEO
+        title="AI Solutions Marketplace - KMATS"
+        description="Discover premium AI products and services. Ready-to-deploy website templates built with modern technology. Custom solutions for businesses seeking intelligent automation."
+        keywords="AI marketplace, website templates, tech solutions, ready-made websites, real estate templates, KMATS"
+        path="/marketplace"
+        structuredData={breadcrumbSchema}
+      />
+      <div className="min-h-screen pt-20 pb-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Page Header */}
         <motion.div
@@ -324,6 +339,7 @@ export function Marketplace() {
           </motion.div>
         </motion.div>
       )}
-    </div>
+      </div>
+    </>
   );
 }
