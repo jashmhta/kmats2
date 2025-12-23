@@ -59,10 +59,11 @@ export function Companies() {
       category: 'HealthTech'
     },
     {
-      name: 'RBRTH',
-      logo: null, // Placeholder
-      description: 'Coming Soon',
-      category: 'Innovation'
+      name: 'RBRTH™',
+      logo: null, // Uses custom Bungee font styling
+      description: 'E-commerce Health & Wellness Brand',
+      category: 'Health & Wellness',
+      useBungeeFont: true
     }
   ];
 
@@ -143,11 +144,13 @@ export function Companies() {
                           loading="lazy"
                         />
                       ) : (
-                        // Placeholder for RBRTH
-                        <div className="flex items-center justify-center w-full h-[100px] bg-muted/30 rounded-lg border-2 border-dashed border-border/50">
-                          <div className="text-center">
-                            <div className="text-2xl font-bold text-muted-foreground mb-1">{company.name}</div>
-                            <div className="text-xs text-muted-foreground/60">Logo Coming Soon</div>
+                        // RBRTH logo in Bungee font
+                        <div className="flex items-center justify-center w-full h-[100px]">
+                          <div 
+                            className="text-3xl transition-opacity duration-300 group-hover:opacity-80"
+                            style={{ fontFamily: "'Bungee', cursive", letterSpacing: '0.05em', color: '#22c55e' }}
+                          >
+                            {company.name}
                           </div>
                         </div>
                       )}

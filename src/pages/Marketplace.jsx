@@ -6,6 +6,7 @@ import { Card, CardContent } from '../components/ui/card';
 import { SEO } from '../components/SEO';
 import { generateBreadcrumbSchema } from '../components/StructuredData';
 import estatePreview from '../assets/images/templates/estate.png';
+import comicalPreview from '../assets/images/templates/comical.png';
 
 export function Marketplace() {
   const [selectedTemplate, setSelectedTemplate] = useState(null);
@@ -40,6 +41,42 @@ export function Marketplace() {
         'Modern UI/UX following latest trends',
         'Easy to customize and rebrand',
         'Clean, maintainable code structure'
+      ],
+      pricing: {
+        basic: 'Template as-is with your branding',
+        pro: 'Custom modifications + your content',
+        enterprise: 'Full customization + ongoing support'
+      }
+    },
+    {
+      id: 'rbrth-shopify',
+      name: 'Comical E-com',
+      category: 'Shopify Template',
+      tagline: 'Bold, brand-first e-commerce experience',
+      description: 'A fun, energetic Shopify theme designed for single-product brands in the health and wellness space. This template puts your brand personality front and center with bold visuals, engaging animations, and a streamlined checkout experience that converts.',
+      demoUrl: 'https://rbrth.kmats.in',
+      image: comicalPreview,
+      techStack: ['Shopify Liquid', 'Custom CSS', 'JavaScript', 'Responsive Design'],
+      features: [
+        'Single-product focused layout for maximum impact',
+        'Bold, brand-first visual design',
+        'Smooth scroll animations and micro-interactions',
+        'Mobile-optimized shopping experience',
+        'Streamlined checkout flow',
+        'Product benefits showcase section',
+        'Social proof and testimonials integration',
+        'SEO-optimized structure',
+        'Fast loading performance',
+        'Easy Shopify admin customization'
+      ],
+      usps: [
+        '🎨 Brand-First Design — Your brand personality takes center stage',
+        '🛒 Conversion Optimized — Built for single-product success',
+        '⚡ Lightning Fast — Performance-first development',
+        '📱 Mobile-First — 70%+ of traffic is mobile, we optimize for it',
+        '🎯 Health & Wellness Focus — Designed for supplement and wellness brands',
+        '🔧 Shopify Native — Full compatibility with Shopify ecosystem',
+        '✨ Fun & Engaging — Animations that delight without overwhelming'
       ],
       pricing: {
         basic: 'Template as-is with your branding',
@@ -128,7 +165,7 @@ export function Marketplace() {
                       <img 
                         src={template.image} 
                         alt={template.name}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain bg-muted/30"
                       />
                     ) : (
                       <div className="w-full h-full flex items-center justify-center">
