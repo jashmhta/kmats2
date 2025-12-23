@@ -1,5 +1,5 @@
 import { motion, useInView } from 'framer-motion';
-import { Bot, Users, ArrowRight, Sparkles, Globe, Code, Zap, BookOpen } from 'lucide-react';
+import { Bot, Users, ArrowRight, Sparkles, Globe, Code, Zap, BookOpen, ShoppingBag } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { useRef } from 'react';
@@ -274,6 +274,72 @@ export function Services() {
             </motion.div>
           ))}
         </div>
+
+        {/* Shopify Banner */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.6, delay: 1.0 }}
+          className="mb-16"
+        >
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-r from-[#95BF47]/10 via-[#5E8E3E]/5 to-[#95BF47]/10 border border-[#95BF47]/30 rounded-2xl p-6 md:p-8 hover:border-[#95BF47]/50 transition-all duration-300">
+            {/* Left side - Icon and Text */}
+            <div className="flex items-center gap-4 md:gap-6">
+              <motion.div
+                initial={{ scale: 0.8, rotate: -10 }}
+                animate={isInView ? { scale: 1, rotate: 0 } : { scale: 0.8, rotate: -10 }}
+                transition={{ duration: 0.5, delay: 1.2 }}
+                className="flex-shrink-0 w-14 h-14 md:w-16 md:h-16 bg-gradient-to-br from-[#95BF47] to-[#5E8E3E] rounded-xl flex items-center justify-center shadow-lg"
+              >
+                <ShoppingBag className="w-7 h-7 md:w-8 md:h-8 text-white" />
+              </motion.div>
+              
+              <div>
+                <motion.div
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+                  transition={{ duration: 0.5, delay: 1.3 }}
+                  className="flex items-center gap-2 mb-1"
+                >
+                </motion.div>
+                <motion.h3
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+                  transition={{ duration: 0.5, delay: 1.4 }}
+                  className="text-xl md:text-2xl font-bold text-foreground"
+                >
+                  We Build Custom Shopify Themes
+                </motion.h3>
+                <motion.p
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+                  transition={{ duration: 0.5, delay: 1.5 }}
+                  className="text-sm md:text-base text-muted-foreground mt-1"
+                >
+                  Brand-first, conversion-optimized e-commerce experiences
+                </motion.p>
+              </div>
+            </div>
+
+            {/* Right side - CTA */}
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
+              transition={{ duration: 0.5, delay: 1.6 }}
+              className="flex-shrink-0"
+            >
+              <Button
+                onClick={() => {
+                  window.location.href = '/marketplace';
+                }}
+                className="bg-gradient-to-r from-[#95BF47] to-[#5E8E3E] hover:from-[#7BA83D] hover:to-[#4A7232] text-white font-medium px-6 py-2.5 rounded-lg group transition-all duration-300 shadow-md hover:shadow-lg"
+              >
+                View Templates
+                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </motion.div>
+          </div>
+        </motion.div>
 
         {/* Additional Services */}
         <motion.div

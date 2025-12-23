@@ -83,7 +83,7 @@ export function Companies() {
           <div className="flex items-center justify-center mb-6">
             <Building2 className="h-10 w-10 text-primary mr-3" />
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Companies I've <span className="gradient-text">Worked With</span>
+              Companies We've <span className="gradient-text">Worked With</span>
             </h2>
           </div>
           <motion.p
