@@ -13,6 +13,7 @@ import { AIEthicsDataPolicy } from './pages/AIEthicsDataPolicy';
 import { IntellectualPropertyPolicy } from './pages/IntellectualPropertyPolicy';
 import { NdaPolicy } from './pages/NdaPolicy';
 import { Marketplace } from './pages/Marketplace';
+import { StartupPartnership } from './pages/StartupPartnership';
 import { ScrollToTop } from './components/ScrollToTop';
 import './App.css';
 
@@ -53,6 +54,7 @@ function App() {
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/ai-ethics-data-policy" element={<AIEthicsDataPolicy />} />
           <Route path="/intellectual-property-policy" element={<IntellectualPropertyPolicy />} />
+          <Route path="/startup-partnership" element={<StartupPartnership />} />
           <Route path="/nda" element={<NdaPolicy />} />
         </Routes>
       </main>

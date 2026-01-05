@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, ExternalLink } from 'lucide-react';
+import { Menu, X, ExternalLink, Rocket } from 'lucide-react';
 import { Button } from './ui/button';
 import { ThemeToggle } from './ThemeToggle';
 import kmatsLogo from '../assets/images/kmats_logo.png';
@@ -138,6 +138,15 @@ export function Navigation() {
                 Portfolio
                 <ExternalLink className="ml-2 h-3 w-3 group-hover:translate-x-1 transition-transform duration-300" aria-hidden="true" />
               </Button>
+              <Button
+                size="sm"
+                onClick={() => navigate('/startup-partnership')}
+                className="ml-2 bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 group"
+                aria-label="Partnership program for startups"
+              >
+                <Rocket className="mr-2 h-4 w-4" />
+                For Startups
+              </Button>
             </div>
           </div>
 
@@ -210,6 +219,18 @@ export function Navigation() {
               >
                 Portfolio
                 <ExternalLink className="ml-2 h-3 w-3 group-hover:translate-x-1 transition-transform duration-300" aria-hidden="true" />
+              </Button>
+              <Button
+                size="sm"
+                onClick={() => {
+                  navigate('/startup-partnership');
+                  setIsOpen(false);
+                }}
+                className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 min-h-[44px]"
+                aria-label="Partnership program for startups"
+              >
+                <Rocket className="mr-2 h-4 w-4" />
+                For Startups
               </Button>
             </div>
           </div>
