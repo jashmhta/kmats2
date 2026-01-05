@@ -1,6 +1,6 @@
-import { motion, useInView } from 'framer-motion';
-import { Building2 } from 'lucide-react';
-import { useRef } from 'react';
+import { motion, useInView, useAnimationControls } from 'framer-motion';
+import { Building2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useRef, useState, useEffect } from 'react';
 
 // Import company logos
 import keedaLogo from '../assets/images/companies/keeda_logo.png';
@@ -13,7 +13,10 @@ import disInfectLogo from '../assets/images/companies/dis-infect.png';
 
 export function Companies() {
   const ref = useRef(null);
+  const carouselRef = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [isPaused, setIsPaused] = useState(false);
+  const controls = useAnimationControls();
 
   const companies = [
     {
@@ -67,8 +70,48 @@ export function Companies() {
     }
   ];
 
-  // Duplicate companies array for seamless infinite scroll
-  const duplicatedCompanies = [...companies, ...companies];
+  // Triple the companies for seamless infinite scroll
+  const duplicatedCompanies = [...companies, ...companies, ...companies];
+  
+  const cardWidth = 280; // w-[280px]
+  const gap = 24; // gap-6 = 24px
+  const totalWidth = companies.length * (cardWidth + gap);
+
+  // Start animation when in view
+  useEffect(() => {
+    if (isInView && !isPaused) {
+      controls.start({
+        x: -totalWidth,
+        transition: {
+          x: {
+            repeat: Infinity,
+            repeatType: "loop",
+            duration: 25,
+            ease: "linear",
+          },
+        },
+      });
+    }
+  }, [isInView, isPaused, controls, totalWidth]);
+
+  const scrollCarousel = (direction) => {
+    if (carouselRef.current) {
+      const scrollAmount = cardWidth + gap;
+      const currentTransform = carouselRef.current.style.transform;
+      const currentX = currentTransform ? parseFloat(currentTransform.replace(/[^-\d.]/g, '')) || 0 : 0;
+      const newX = direction === 'left' ? currentX + scrollAmount : currentX - scrollAmount;
+      
+      // Pause auto-scroll temporarily
+      setIsPaused(true);
+      controls.stop();
+      controls.set({ x: newX });
+      
+      // Resume auto-scroll after a delay
+      setTimeout(() => {
+        setIsPaused(false);
+      }, 3000);
+    }
+  };
 
   return (
     <section id="companies" className="py-20 bg-muted/5 overflow-hidden" ref={ref}>
@@ -98,30 +141,42 @@ export function Companies() {
 
         {/* Infinite Scrolling Carousel */}
         <div className="relative">
+          {/* Left Arrow */}
+          <button
+            onClick={() => scrollCarousel('left')}
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-20 bg-card/90 hover:bg-card border border-border/50 hover:border-primary/50 rounded-full p-3 shadow-lg transition-all duration-300 hover:scale-110 group"
+            aria-label="Previous companies"
+          >
+            <ChevronLeft className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
+          </button>
+
+          {/* Right Arrow */}
+          <button
+            onClick={() => scrollCarousel('right')}
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-20 bg-card/90 hover:bg-card border border-border/50 hover:border-primary/50 rounded-full p-3 shadow-lg transition-all duration-300 hover:scale-110 group"
+            aria-label="Next companies"
+          >
+            <ChevronRight className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
+          </button>
+
           {/* Gradient overlays for smooth edges */}
-          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-muted/5 to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-muted/5 to-transparent z-10 pointer-events-none" />
+          <div className="absolute left-12 top-0 bottom-0 w-24 bg-gradient-to-r from-muted/5 to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-12 top-0 bottom-0 w-24 bg-gradient-to-l from-muted/5 to-transparent z-10 pointer-events-none" />
           
           {/* Scrolling container */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="overflow-hidden py-4"
+            className="overflow-hidden py-4 mx-14"
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
           >
             <motion.div
+              ref={carouselRef}
               className="flex gap-6"
-              animate={{
-                x: [0, -100 * companies.length + '%'],
-              }}
-              transition={{
-                x: {
-                  repeat: Infinity,
-                  repeatType: "loop",
-                  duration: 100, // Adjust speed here (higher = slower)
-                  ease: "linear",
-                },
-              }}
+              animate={controls}
+              initial={{ x: 0 }}
             >
               {duplicatedCompanies.map((company, index) => (
                 <div
