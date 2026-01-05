@@ -40,6 +40,14 @@
   <priority>0.8</priority>
 </url>
 
+<!-- Startup Partnership Program - High Priority -->
+<url>
+  <loc>https://kmats.in/startup-partnership</loc>
+  <lastmod>2025-01-05</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
 <!-- Legal & Policy Pages - Important for Compliance -->
 <url>
   <loc>https://kmats.in/privacy-policy</loc>
