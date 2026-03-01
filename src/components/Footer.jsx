@@ -39,14 +39,14 @@ export function Footer() {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
-              <img 
-                src={kmatsLogo} 
-                alt="KMATS Logo" 
+              <img
+                src={kmatsLogo}
+                alt="KMATS Logo"
                 className="h-8 w-auto mr-3"
               />
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
-              Building innovative AI and software solutions for a global audience. 
+              Building innovative AI and software solutions for a global audience.
               Empowering education and technology through purpose-driven development.
             </p>
             <div className="flex items-center text-sm text-muted-foreground">
@@ -106,13 +106,13 @@ export function Footer() {
               <Button
                 variant="ghost"
                 size="sm"
-                onClick={() => window.open('https://krishankshah.netlify.app/', '_blank')}
+                onClick={() => window.open('https://krishank.kmats.in/', '_blank')}
                 className="justify-start p-0 h-auto text-muted-foreground hover:text-primary transition-colors duration-300 group"
               >
                 <ExternalLink className="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
                 Portfolio
               </Button>
-              
+
               {/* Social Media Links */}
               <div className="pt-2">
                 <p className="text-sm font-medium text-foreground mb-2">Follow Us</p>

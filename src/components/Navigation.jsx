@@ -24,7 +24,7 @@ export function Navigation() {
   // Active section detection using Intersection Observer
   useEffect(() => {
     const sections = document.querySelectorAll('section[id]');
-    
+
     const observerOptions = {
       root: null,
       rootMargin: '-20% 0px -70% 0px',
@@ -73,10 +73,9 @@ export function Navigation() {
   };
 
   return (
-    <nav 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-background/80 backdrop-blur-md border-b border-border/50' : 'bg-transparent'
-      }`}
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-background/80 backdrop-blur-md border-b border-border/50' : 'bg-transparent'
+        }`}
       role="navigation"
       aria-label="Main navigation"
     >
@@ -84,12 +83,11 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <img 
-              src={kmatsLogo} 
-              alt="KMATS - Building Tomorrow's AI Solutions Logo" 
-              className={`w-auto hover:scale-105 transition-all duration-300 ${
-                scrolled ? 'h-10 md:h-12' : 'h-12 md:h-14 lg:h-16'
-              }`}
+            <img
+              src={kmatsLogo}
+              alt="KMATS - Building Tomorrow's AI Solutions Logo"
+              className={`w-auto hover:scale-105 transition-all duration-300 ${scrolled ? 'h-10 md:h-12' : 'h-12 md:h-14 lg:h-16'
+                }`}
             />
           </div>
 
@@ -99,22 +97,20 @@ export function Navigation() {
               {navItems.map((item) => {
                 const sectionId = item.href.substring(1);
                 const isActive = activeSection === sectionId;
-                
+
                 return (
                   <button
                     key={item.name}
                     onClick={() => handleSectionNavigation(item.href)}
-                    className={`text-foreground hover:text-primary transition-colors duration-300 px-3 py-2 text-sm font-medium relative group cursor-pointer ${
-                      isActive ? 'nav-active' : ''
-                    }`}
+                    className={`text-foreground hover:text-primary transition-colors duration-300 px-3 py-2 text-sm font-medium relative group cursor-pointer ${isActive ? 'nav-active' : ''
+                      }`}
                     aria-label={`Navigate to ${item.name} section`}
                     aria-current={isActive ? 'page' : undefined}
                   >
                     {item.name}
-                    <span 
-                      className={`absolute bottom-0 left-0 h-0.5 bg-primary transition-all duration-300 ${
-                        isActive ? 'w-full' : 'w-0 group-hover:w-full'
-                      }`}
+                    <span
+                      className={`absolute bottom-0 left-0 h-0.5 bg-primary transition-all duration-300 ${isActive ? 'w-full' : 'w-0 group-hover:w-full'
+                        }`}
                     ></span>
                   </button>
                 );
@@ -131,7 +127,7 @@ export function Navigation() {
               <Button
                 variant="outline"
                 size="sm"
-                onClick={() => window.open('https://krishankshah.netlify.app/', '_blank')}
+                onClick={() => window.open('https://krishank.kmats.in/', '_blank')}
                 className="hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
                 aria-label="View portfolio (opens in new tab)"
               >
@@ -171,7 +167,7 @@ export function Navigation() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div 
+          <div
             id="mobile-menu"
             className="md:hidden absolute top-full left-0 right-0 bg-background/95 backdrop-blur-md border-b border-border/50 slide-in"
             role="menu"
@@ -180,14 +176,13 @@ export function Navigation() {
               {navItems.map((item) => {
                 const sectionId = item.href.substring(1);
                 const isActive = activeSection === sectionId;
-                
+
                 return (
                   <button
                     key={item.name}
                     onClick={() => handleSectionNavigation(item.href)}
-                    className={`text-foreground hover:text-primary hover:bg-primary/10 block px-4 py-3 text-base font-medium w-full text-left transition-all duration-300 rounded-md cursor-pointer min-h-[44px] ${
-                      isActive ? 'text-primary bg-primary/5' : ''
-                    }`}
+                    className={`text-foreground hover:text-primary hover:bg-primary/10 block px-4 py-3 text-base font-medium w-full text-left transition-all duration-300 rounded-md cursor-pointer min-h-[44px] ${isActive ? 'text-primary bg-primary/5' : ''
+                      }`}
                     role="menuitem"
                     aria-current={isActive ? 'page' : undefined}
                   >
@@ -211,7 +206,7 @@ export function Navigation() {
                 variant="outline"
                 size="sm"
                 onClick={() => {
-                  window.open('https://krishankshah.netlify.app/', '_blank');
+                  window.open('https://krishank.kmats.in/', '_blank');
                   setIsOpen(false);
                 }}
                 className="w-full hover:bg-primary hover:text-primary-foreground transition-all duration-300 group min-h-[44px]"

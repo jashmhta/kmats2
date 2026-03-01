@@ -1,4 +1,5 @@
 import { motion, useInView } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { Bot, Users, ArrowRight, Sparkles, Globe, Code, Zap, BookOpen, ShoppingBag } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
@@ -7,6 +8,7 @@ import aiEducatorImg from '../assets/images/ai_educator_assistant.png';
 import techConsultancyImg from '../assets/images/tech_consultancy_abstract.jpg';
 
 export function Services() {
+  const navigate = useNavigate();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -141,9 +143,8 @@ export function Services() {
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
               transition={{ duration: 0.8, delay: 0.4 + index * 0.3 }}
-              className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center ${
-                index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''
-              }`}
+              className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''
+                }`}
             >
               {/* Content */}
               <div className={`space-y-6 ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
@@ -190,11 +191,11 @@ export function Services() {
                       className="flex items-center space-x-2"
                     >
                       <motion.div
-                        animate={{ 
+                        animate={{
                           rotate: [0, 360],
-                          transition: { 
-                            duration: 4, 
-                            repeat: Infinity, 
+                          transition: {
+                            duration: 4,
+                            repeat: Infinity,
                             ease: "linear",
                             delay: featureIndex * 0.5
                           }
@@ -216,9 +217,8 @@ export function Services() {
                 >
                   <Button
                     size="lg"
-                    className={`bg-gradient-to-r ${service.color} text-background hover:opacity-90 transition-all duration-300 group ${
-                      service.isMain ? 'shadow-lg shadow-primary/25' : ''
-                    } w-full sm:w-auto relative overflow-hidden`}
+                    className={`bg-gradient-to-r ${service.color} text-background hover:opacity-90 transition-all duration-300 group ${service.isMain ? 'shadow-lg shadow-primary/25' : ''
+                      } w-full sm:w-auto relative overflow-hidden`}
                     onClick={() => {
                       if (service.id === 'rpm' && service.link) {
                         window.open(service.link, '_blank', 'noopener,noreferrer');
@@ -255,7 +255,7 @@ export function Services() {
                   initial={{ opacity: 0, scale: 0.9, rotateY: index % 2 === 0 ? -15 : 15 }}
                   animate={isInView ? { opacity: 1, scale: 1, rotateY: 0 } : { opacity: 0, scale: 0.9, rotateY: index % 2 === 0 ? -15 : 15 }}
                   transition={{ duration: 1.0, delay: 0.5 + index * 0.3 }}
-                  whileHover={{ 
+                  whileHover={{
                     scale: 1.05,
                     rotateY: index % 2 === 0 ? 5 : -5,
                     transition: { duration: 0.4 }
@@ -293,7 +293,7 @@ export function Services() {
               >
                 <ShoppingBag className="w-7 h-7 md:w-8 md:h-8 text-white" />
               </motion.div>
-              
+
               <div>
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
@@ -330,7 +330,7 @@ export function Services() {
             >
               <Button
                 onClick={() => {
-                  window.location.href = '/marketplace';
+                  navigate('/marketplace');
                 }}
                 className="bg-gradient-to-r from-[#95BF47] to-[#5E8E3E] hover:from-[#7BA83D] hover:to-[#4A7232] text-white font-medium px-6 py-2.5 rounded-lg group transition-all duration-300 shadow-md hover:shadow-lg"
               >
@@ -367,7 +367,7 @@ export function Services() {
                 key={service.title}
                 variants={itemVariants}
                 custom={index}
-                whileHover={{ 
+                whileHover={{
                   y: -10,
                   scale: 1.03,
                   transition: { duration: 0.3 }
@@ -376,7 +376,7 @@ export function Services() {
                 <Card className="bg-card/40 backdrop-blur-sm border-border/30 hover:border-primary/40 hover:bg-card/60 transition-all duration-300 group h-full cursor-pointer">
                   <CardContent className="p-6 text-center">
                     <motion.div
-                      whileHover={{ 
+                      whileHover={{
                         scale: 1.2,
                         rotate: 360,
                         transition: { duration: 0.6 }
@@ -405,8 +405,8 @@ export function Services() {
               Ready to Elevate Your Education or Business?
             </h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Whether you need AI-powered education solutions with RPM or expert tech consultancy 
-              for your global business, KMATS is here to help. Let's discuss how we can bring 
+              Whether you need AI-powered education solutions with RPM or expert tech consultancy
+              for your global business, KMATS is here to help. Let's discuss how we can bring
               innovation to your projects.
             </p>
             <motion.div
