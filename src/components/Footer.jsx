@@ -112,7 +112,15 @@ export function Footer() {
                 <ExternalLink className="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
                 Portfolio
               </Button>
-
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => window.open('https://wa.me/918850622122', '_blank')}
+                className="justify-start p-0 h-auto text-muted-foreground hover:text-primary transition-colors duration-300 group"
+              >
+                <ExternalLink className="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform duration-300" />
+                +91 8850622122
+              </Button>
               {/* Social Media Links */}
               <div className="pt-2">
                 <p className="text-sm font-medium text-foreground mb-2">Follow Us</p>
