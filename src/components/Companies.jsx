@@ -10,6 +10,7 @@ import suibLogo from '../assets/images/companies/suib_logo.png';
 import rajComputersLogo from '../assets/images/companies/raj_computers_logo.png';
 import naptexLogo from '../assets/images/companies/naptex_logo.png';
 import disInfectLogo from '../assets/images/companies/dis-infect.png';
+import pokiLogo from '../assets/images/companies/poki.svg';
 
 export function Companies() {
   const ref = useRef(null);
@@ -60,6 +61,12 @@ export function Companies() {
       logo: disInfectLogo,
       description: 'Health & Safety Solutions',
       category: 'HealthTech'
+    },
+    {
+      name: 'POKI',
+      logo: pokiLogo,
+      description: 'Poki Studios is a design studio building high-converting websites, brands, and digital experiences. We move fast, think sharp, and create work that not only looks good—but actually performs.',
+      category: 'Design & Digital'
     },
     {
       name: 'RBRTH™',
