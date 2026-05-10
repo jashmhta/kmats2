@@ -98,10 +98,11 @@ export function SiteEffects() {
         }, 2600);
       }
 
-      // GSAP Horizontal ScrollTrigger for card rails
+      // GSAP Horizontal ScrollTrigger for card rails (desktop only)
+      const isMobile = window.innerWidth < 760;
       const hSections = Array.from(document.querySelectorAll('.gsap-h-section'));
       const hTriggers = [];
-      if (!reduceMotion) {
+      if (!reduceMotion && !isMobile) {
         hSections.forEach((section) => {
           const wrapper = section.querySelector('.gsap-h-wrapper');
           const track = section.querySelector('.gsap-h-track');
