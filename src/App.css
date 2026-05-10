@@ -3513,12 +3513,22 @@ html.js-reveal .why-grid [data-reveal].is-visible {
   .compare-table .row { grid-template-columns: minmax(0, 1.4fr) 1fr; }
   .compare-table .row > div:nth-child(n+3) { display: none; }
   .footer-columns { grid-template-columns: 1fr 1fr; }
-  .industry-grid { grid-template-columns: 1fr 1fr; }
   .resource-band .content-grid, .stats-band, .contact-strip { grid-template-columns: 1fr; }
   .case-metrics { grid-template-columns: 1fr; }
   .not-found-grid { grid-template-columns: 1fr; }
   .article-toc { display: none; }
   .footer-bottom { flex-direction: column; }
+
+  /* Mobile industries section */
+  .industries-section .section-row h2 { font-size: clamp(1.8rem, 7vw, 2.6rem); }
+  .industry-grid { gap: 10px; margin-top: 20px; }
+  .industry-grid span {
+    padding: 14px 18px;
+    border-radius: 16px;
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
 }
 
 .route-loader { display: grid; place-items: center; min-height: 80vh; padding: 120px 6vw 6vw; }
