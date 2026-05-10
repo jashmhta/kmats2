@@ -1,23 +1,14 @@
 # KMATS
-# Robots.txt - Updated: December 16, 2024
+# Robots.txt - Updated: May 10, 2026
 
 # Allow all search engines to crawl everything
 User-agent: *
 Allow: /
 
-# Disallow crawling of admin/system directories (if they exist)
-# Uncomment these if you add admin panels or private sections
-# Disallow: /admin/
-# Disallow: /api/
-# Disallow: /private/
-
 # Disallow crawling of build artifacts and source maps
 Disallow: /*.map$
 
-# Crawl delay (optional - uncomment if needed)
-# Crawl-delay: 1
-
-# Sitemap location - helps search engines find all your pages
+# Sitemap location - helps search engines find all public pages
 Sitemap: https://kmats.in/sitemap.xml
 
 # Additional Sitemaps (if you create them in the future)

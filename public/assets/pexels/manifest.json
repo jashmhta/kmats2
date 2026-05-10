@@ -1,0 +1,219 @@
+{
+  "source": "Pexels API",
+  "photos": [
+    {
+      "query": "product design studio",
+      "id": 7674603,
+      "path": "/assets/pexels/photos/product-design-studio-7674603.jpg",
+      "photographer": "Pavel Danilyuk",
+      "photographer_url": "https://www.pexels.com/@pavel-danilyuk",
+      "source_url": "https://www.pexels.com/photo/ceramic-products-on-marble-top-table-7674603/",
+      "alt": "Product Design Studio \u2014 photo by Pavel Danilyuk"
+    },
+    {
+      "query": "ux design workshop",
+      "id": 29521529,
+      "path": "/assets/pexels/photos/ux-design-workshop-29521529.jpg",
+      "photographer": "Jakub Zerdzicki",
+      "photographer_url": "https://www.pexels.com/@jakubzerdzicki",
+      "source_url": "https://www.pexels.com/photo/creative-brainstorming-session-with-sticky-notes-29521529/",
+      "alt": "Ux Design Workshop \u2014 photo by Jakub Zerdzicki"
+    },
+    {
+      "query": "creative agency office",
+      "id": 6476256,
+      "path": "/assets/pexels/photos/creative-agency-office-6476256.jpg",
+      "photographer": "Mikael Blomkvist",
+      "photographer_url": "https://www.pexels.com/@mikael-blomkvist",
+      "source_url": "https://www.pexels.com/photo/people-sitting-at-the-table-6476256/",
+      "alt": "Creative Agency Office \u2014 photo by Mikael Blomkvist"
+    },
+    {
+      "query": "software development team",
+      "id": 6804068,
+      "path": "/assets/pexels/photos/software-development-team-6804068.jpg",
+      "photographer": "cottonbro studio",
+      "photographer_url": "https://www.pexels.com/@cottonbro",
+      "source_url": "https://www.pexels.com/photo/men-sitting-at-the-desks-in-an-office-and-using-computers-6804068/",
+      "alt": "Software Development Team \u2014 photo by cottonbro studio"
+    },
+    {
+      "query": "startup collaboration",
+      "id": 7495609,
+      "path": "/assets/pexels/photos/startup-collaboration-7495609.jpg",
+      "photographer": "Moe Magners",
+      "photographer_url": "https://www.pexels.com/@moe-magners",
+      "source_url": "https://www.pexels.com/photo/a-man-explaining-in-front-of-the-office-team-7495609/",
+      "alt": "Startup Collaboration \u2014 photo by Moe Magners"
+    },
+    {
+      "query": "mobile app design",
+      "id": 54284,
+      "path": "/assets/pexels/photos/mobile-app-design-54284.jpg",
+      "photographer": "Torsten Dettlaff",
+      "photographer_url": "https://www.pexels.com/@tdcat",
+      "source_url": "https://www.pexels.com/photo/space-gray-iphone-6-54284/",
+      "alt": "Mobile App Design \u2014 photo by Torsten Dettlaff"
+    },
+    {
+      "query": "brand design studio",
+      "id": 7661590,
+      "path": "/assets/pexels/photos/brand-design-studio-7661590.jpg",
+      "photographer": "Eva Bronzini",
+      "photographer_url": "https://www.pexels.com/@eva-bronzini",
+      "source_url": "https://www.pexels.com/photo/text-on-white-paper-7661590/",
+      "alt": "Brand Design Studio \u2014 photo by Eva Bronzini"
+    },
+    {
+      "query": "dashboard analytics",
+      "id": 97080,
+      "path": "/assets/pexels/photos/dashboard-analytics-97080.jpg",
+      "photographer": "Negative Space",
+      "photographer_url": "https://www.pexels.com/@negativespace",
+      "source_url": "https://www.pexels.com/photo/blue-and-green-pie-chart-97080/",
+      "alt": "Dashboard Analytics \u2014 photo by Negative Space"
+    },
+    {
+      "query": "abstract technology",
+      "id": 17485706,
+      "path": "/assets/pexels/photos/abstract-technology-17485706.jpg",
+      "photographer": "Google DeepMind",
+      "photographer_url": "https://www.pexels.com/@googledeepmind",
+      "source_url": "https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-image-visualises-the-input-and-output-of-neural-networks-and-how-ai-systems-perceive-data-it-was-created-by-rose-pilkington-17485706/",
+      "alt": "Abstract Technology \u2014 photo by Google DeepMind"
+    },
+    {
+      "query": "website design laptop",
+      "id": 811587,
+      "path": "/assets/pexels/photos/website-design-laptop-811587.jpg",
+      "photographer": "Lisa from Pexels",
+      "photographer_url": "https://www.pexels.com/@fotios-photos",
+      "source_url": "https://www.pexels.com/photo/photo-of-a-gray-dell-laptop-displaying-pexels-webpage-811587/",
+      "alt": "Website Design Laptop \u2014 photo by Lisa from Pexels"
+    },
+    {
+      "query": "designer desk",
+      "id": 923306,
+      "path": "/assets/pexels/photos/designer-desk-923306.jpg",
+      "photographer": "Julien Bachelet",
+      "photographer_url": "https://www.pexels.com/@julienblt",
+      "source_url": "https://www.pexels.com/photo/brown-house-illustration-on-brown-wooden-table-923306/",
+      "alt": "Designer Desk \u2014 photo by Julien Bachelet"
+    },
+    {
+      "query": "ai technology abstract",
+      "id": 17483870,
+      "path": "/assets/pexels/photos/ai-technology-abstract-17483870.jpg",
+      "photographer": "Google DeepMind",
+      "photographer_url": "https://www.pexels.com/@googledeepmind",
+      "source_url": "https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-image-was-inspired-neural-networks-used-in-deep-learning-it-was-created-by-novoto-studio-as-part-of-the-visualising-ai-proje-17483870/",
+      "alt": "Ai Technology Abstract \u2014 photo by Google DeepMind"
+    },
+    {
+      "query": "team strategy meeting",
+      "id": 5439481,
+      "path": "/assets/pexels/photos/team-strategy-meeting-5439481.jpg",
+      "photographer": "Tima Miroshnichenko",
+      "photographer_url": "https://www.pexels.com/@tima-miroshnichenko",
+      "source_url": "https://www.pexels.com/photo/coworkers-in-a-conference-room-having-a-meeting-5439481/",
+      "alt": "Team Strategy Meeting \u2014 photo by Tima Miroshnichenko"
+    },
+    {
+      "query": "minimal workspace",
+      "id": 35220242,
+      "path": "/assets/pexels/photos/minimal-workspace-35220242.jpg",
+      "photographer": "Muhtelifane",
+      "photographer_url": "https://www.pexels.com/@muhtelifane-70593160",
+      "source_url": "https://www.pexels.com/photo/minimalist-workspace-with-laptop-and-tablet-35220242/",
+      "alt": "Minimal Workspace \u2014 photo by Muhtelifane"
+    },
+    {
+      "query": "digital product design",
+      "id": 8000657,
+      "path": "/assets/pexels/photos/digital-product-design-8000657.jpg",
+      "photographer": "Pavel Danilyuk",
+      "photographer_url": "https://www.pexels.com/@pavel-danilyuk",
+      "source_url": "https://www.pexels.com/photo/a-person-drawing-headphones-on-ipad-8000657/",
+      "alt": "Digital Product Design \u2014 photo by Pavel Danilyuk"
+    },
+    {
+      "query": "modern office architecture",
+      "id": 13219418,
+      "path": "/assets/pexels/photos/modern-office-architecture-13219418.jpg",
+      "photographer": "Egor Komarov",
+      "photographer_url": "https://www.pexels.com/@egorkomarov",
+      "source_url": "https://www.pexels.com/photo/building-with-glass-windows-13219418/",
+      "alt": "Modern Office Architecture \u2014 photo by Egor Komarov"
+    },
+    {
+      "query": "creative presentation",
+      "id": 15141529,
+      "path": "/assets/pexels/photos/creative-presentation-15141529.jpg",
+      "photographer": "Matheus Bertelli",
+      "photographer_url": "https://www.pexels.com/@bertellifotografia",
+      "source_url": "https://www.pexels.com/photo/man-speaking-about-ideas-in-meeting-15141529/",
+      "alt": "Creative Presentation \u2014 photo by Matheus Bertelli"
+    },
+    {
+      "query": "futuristic interface",
+      "id": 27141313,
+      "path": "/assets/pexels/photos/futuristic-interface-27141313.jpg",
+      "photographer": "Egor Komarov",
+      "photographer_url": "https://www.pexels.com/@egorkomarov",
+      "source_url": "https://www.pexels.com/photo/options-on-modern-device-touchscreen-27141313/",
+      "alt": "Futuristic Interface \u2014 photo by Egor Komarov"
+    }
+  ],
+  "videos": [
+    {
+      "query": "technology abstract",
+      "id": 29717537,
+      "path": "/assets/pexels/videos/technology-abstract-29717537.mp4",
+      "photographer": "Chandresh Uike",
+      "photographer_url": "https://www.pexels.com/@chandresh-uike-754623426",
+      "source_url": "https://www.pexels.com/video/futuristic-abstract-digital-connection-background-29717537/",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "query": "creative studio",
+      "id": 34982759,
+      "path": "/assets/pexels/videos/creative-studio-34982759.mp4",
+      "photographer": "Frank Litschel",
+      "photographer_url": "https://www.pexels.com/@frawali-studios",
+      "source_url": "https://www.pexels.com/video/cozy-modern-green-screen-studio-setup-34982759/",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "query": "software development",
+      "id": 6805175,
+      "path": "/assets/pexels/videos/software-development-6805175.mp4",
+      "photographer": "cottonbro studio",
+      "photographer_url": "https://www.pexels.com/@cottonbro",
+      "source_url": "https://www.pexels.com/video/a-young-man-working-with-a-computer-6805175/",
+      "width": 960,
+      "height": 506
+    },
+    {
+      "query": "startup team",
+      "id": 7414172,
+      "path": "/assets/pexels/videos/startup-team-7414172.mp4",
+      "photographer": "RDNE Stock project",
+      "photographer_url": "https://www.pexels.com/@rdne",
+      "source_url": "https://www.pexels.com/video/men-talking-while-holding-a-pen-7414172/",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "query": "mobile phone app",
+      "id": 14377148,
+      "path": "/assets/pexels/videos/mobile-phone-app-14377148.mp4",
+      "photographer": "Murilo Castro",
+      "photographer_url": "https://www.pexels.com/@murilo-castro-362153360",
+      "source_url": "https://www.pexels.com/video/a-person-scrolling-through-the-app-store-on-a-mobile-phone-14377148/",
+      "width": 960,
+      "height": 540
+    }
+  ]
+}

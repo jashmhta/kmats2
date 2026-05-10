@@ -1,11 +1,11 @@
 {
   "name": "KMATS - Knowledge Management & Technology Solutions",
   "short_name": "KMATS",
-  "description": "Leading AI consultancy delivering cutting-edge solutions in machine learning, automation, and digital transformation.",
+  "description": "AI engineering, custom software, EdTech platforms, automation, templates, and startup partnerships.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0a0a0a",
-  "theme_color": "#6366f1",
+  "background_color": "#e5e2d9",
+  "theme_color": "#2b1740",
   "orientation": "portrait-primary",
   "icons": [
     {
@@ -36,7 +36,12 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["business", "technology", "productivity"],
+  "categories": [
+    "business",
+    "technology",
+    "productivity",
+    "education"
+  ],
   "lang": "en-US",
   "dir": "ltr"
 }

@@ -1,12 +1,3 @@
-/**
- * Structured Data Schemas for SEO
- * Provides JSON-LD schema markup for rich search results
- */
-
-/**
- * Organization Schema
- * Helps Google understand your organization and display rich snippets
- */
 export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -14,30 +5,29 @@ export const organizationSchema = {
   legalName: 'Knowledge Management & Technology Solutions',
   url: 'https://kmats.in',
   logo: 'https://kmats.in/logos/kmats_logo.png',
-  description: 'Leading AI consultancy delivering cutting-edge solutions in machine learning, automation, and digital transformation.',
+  description: 'Leading AI consultancy delivering cutting-edge solutions in machine learning, automation, custom software, EdTech, startup partnerships, and digital transformation.',
   sameAs: [
-    // Add social media profiles here when available
-    // 'https://www.linkedin.com/company/kmats',
-    // 'https://twitter.com/kmats',
+    'https://www.linkedin.com/company/kmats4/',
+    'https://x.com/ShahKrisha20763',
+    'https://instagram.com/kmats.in/',
+    'https://krishank.kmats.in/'
   ],
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'Customer Service',
+    email: 'krishankshah@kmats.in',
+    telephone: '+91-8850622122',
     availableLanguage: ['English'],
+    areaServed: 'Worldwide'
   },
 };
 
-
-/**
- * WebSite Schema with Site Search
- * Enables Google to show a search box in search results
- */
 export const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'KMATS',
   url: 'https://kmats.in',
-  description: 'Leading AI consultancy delivering cutting-edge solutions in machine learning, automation, and digital transformation.',
+  description: 'AI engineering, custom software, EdTech platforms, automation, marketplace templates, and startup partnership programs.',
   publisher: {
     '@type': 'Organization',
     name: 'KMATS',
@@ -48,10 +38,6 @@ export const websiteSchema = {
   },
 };
 
-/**
- * Generate BreadcrumbList Schema for navigation breadcrumbs
- * @param {Array} breadcrumbs - Array of {name, url} objects
- */
 export function generateBreadcrumbSchema(breadcrumbs) {
   return {
     '@context': 'https://schema.org',
@@ -65,10 +51,6 @@ export function generateBreadcrumbSchema(breadcrumbs) {
   };
 }
 
-/**
- * Service Schema for individual services
- * @param {Object} service - Service details
- */
 export function generateServiceSchema(service) {
   return {
     '@context': 'https://schema.org',
@@ -84,7 +66,4 @@ export function generateServiceSchema(service) {
   };
 }
 
-/**
- * Combined schemas for homepage
- */
 export const homepageSchemas = [organizationSchema, websiteSchema];

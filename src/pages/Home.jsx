@@ -1,49 +1,19 @@
-import { useEffect } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
 import { SEO } from '../components/SEO';
 import { homepageSchemas } from '../components/StructuredData';
-import { Hero } from '../components/Hero';
-import { About } from '../components/About';
-import { Services } from '../components/Services';
-import { Companies } from '../components/Companies';
-import { Contact } from '../components/Contact';
+import { HtmlContent } from '../components/HtmlContent';
+import homeHtml from '../content/home.html?raw';
 
 export function Home() {
-  const location = useLocation();
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const target = location.state?.scrollTo;
-    if (!target) return;
-
-    const scroll = () => {
-      const element = document.querySelector(target);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    };
-
-    // Scroll on the next frame to ensure sections are rendered.
-    requestAnimationFrame(() => {
-      scroll();
-      navigate(location.pathname, { replace: true, state: { preserveScroll: true } });
-    });
-  }, [location, navigate]);
-
   return (
     <>
       <SEO
         title="KMATS - AI & Technology Solutions | Building Tomorrow's Intelligence"
-        description="Leading AI consultancy delivering cutting-edge solutions in machine learning, automation, and digital transformation. Partner with KMATS for innovative technology services."
-        keywords="AI consultancy, machine learning, automation, digital transformation, technology solutions, artificial intelligence, tech consulting, KMATS"
+        description="KMATS builds AI engineering, custom software platforms, EdTech solutions, automation, startup partnerships, and technology consultancy for world-ready digital products."
+        keywords="AI consultancy, machine learning, automation, digital transformation, technology solutions, artificial intelligence, tech consulting, KMATS, RPM, startup partnership"
         path="/"
         structuredData={homepageSchemas}
       />
-      <Hero />
-      <About />
-      <Services />
-      <Companies />
-      <Contact />
+      <HtmlContent html={homeHtml} className="home-main" />
     </>
   );
 }

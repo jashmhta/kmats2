@@ -1,0 +1,542 @@
+{
+  "author-page": {
+    "title": "Author Page",
+    "description": "Author page.",
+    "path": "/author-page",
+    "section": "author-page"
+  },
+  "blogs/3-second-rule-in-ux": {
+    "title": "3 Second Rule In UX",
+    "description": "Article page for 3 Second Rule In UX.",
+    "path": "/blogs/3-second-rule-in-ux",
+    "section": "blogs"
+  },
+  "blogs/4-cs-of-ux-design": {
+    "title": "4 Cs Of UX Design",
+    "description": "Article page for 4 Cs Of UX Design.",
+    "path": "/blogs/4-cs-of-ux-design",
+    "section": "blogs"
+  },
+  "blogs/5-planes-of-ux-design": {
+    "title": "5 Planes Of UX Design",
+    "description": "Article page for 5 Planes Of UX Design.",
+    "path": "/blogs/5-planes-of-ux-design",
+    "section": "blogs"
+  },
+  "blogs/5-principles-of-ux-design": {
+    "title": "5 Principles Of UX Design",
+    "description": "Article page for 5 Principles Of UX Design.",
+    "path": "/blogs/5-principles-of-ux-design",
+    "section": "blogs"
+  },
+  "blogs/5-ws-in-ux-design": {
+    "title": "5 Ws In UX Design",
+    "description": "Article page for 5 Ws In UX Design.",
+    "path": "/blogs/5-ws-in-ux-design",
+    "section": "blogs"
+  },
+  "blogs/60-30-10-rule-ui-ux-design": {
+    "title": "60 30 10 Rule UI UX Design",
+    "description": "Article page for 60 30 10 Rule UI UX Design.",
+    "path": "/blogs/60-30-10-rule-ui-ux-design",
+    "section": "blogs"
+  },
+  "blogs/7-pillars-of-ux-design": {
+    "title": "7 Pillars Of UX Design",
+    "description": "Article page for 7 Pillars Of UX Design.",
+    "path": "/blogs/7-pillars-of-ux-design",
+    "section": "blogs"
+  },
+  "blogs/80-20-rule-ux-design": {
+    "title": "80 20 Rule UX Design",
+    "description": "Article page for 80 20 Rule UX Design.",
+    "path": "/blogs/80-20-rule-ux-design",
+    "section": "blogs"
+  },
+  "blogs/accessibility-in-ui-ux-design": {
+    "title": "Accessibility In UI UX Design",
+    "description": "Article page for Accessibility In UI UX Design.",
+    "path": "/blogs/accessibility-in-ui-ux-design",
+    "section": "blogs"
+  },
+  "blogs/ai-driven-ux-patterns-saas": {
+    "title": "AI Driven UX Patterns SaaS",
+    "description": "Article page for AI Driven UX Patterns SaaS.",
+    "path": "/blogs/ai-driven-ux-patterns-saas",
+    "section": "blogs"
+  },
+  "blogs/ai-is-changing-design": {
+    "title": "AI Is Changing Design",
+    "description": "Article page for AI Is Changing Design.",
+    "path": "/blogs/ai-is-changing-design",
+    "section": "blogs"
+  },
+  "blogs/app-performance-ui-ux-optimization": {
+    "title": "App Performance UI UX Optimization",
+    "description": "Article page for App Performance UI UX Optimization.",
+    "path": "/blogs/app-performance-ui-ux-optimization",
+    "section": "blogs"
+  },
+  "blogs/b2b-saas-dashboard-design-examples": {
+    "title": "B2B SaaS Dashboard Design Examples",
+    "description": "Article page for B2B SaaS Dashboard Design Examples.",
+    "path": "/blogs/b2b-saas-dashboard-design-examples",
+    "section": "blogs"
+  },
+  "blogs/b2b-vs-b2c-saas-design-differences": {
+    "title": "B2B Vs B2C SaaS Design Differences",
+    "description": "Article page for B2B Vs B2C SaaS Design Differences.",
+    "path": "/blogs/b2b-vs-b2c-saas-design-differences",
+    "section": "blogs"
+  },
+  "blogs/bento-grid-dashboard-design-aesthetics": {
+    "title": "Bento Grid Dashboard Design Aesthetics",
+    "description": "Article page for Bento Grid Dashboard Design Aesthetics.",
+    "path": "/blogs/bento-grid-dashboard-design-aesthetics",
+    "section": "blogs"
+  },
+  "blogs/best-figma-plugins-ui-kits": {
+    "title": "Best Figma Plugins UI Kits",
+    "description": "Article page for Best Figma Plugins UI Kits.",
+    "path": "/blogs/best-figma-plugins-ui-kits",
+    "section": "blogs"
+  },
+  "blogs/best-mobile-app-design-agencies": {
+    "title": "Best Mobile App Design Agencies",
+    "description": "Article page for Best Mobile App Design Agencies.",
+    "path": "/blogs/best-mobile-app-design-agencies",
+    "section": "blogs"
+  },
+  "blogs/best-rebranding-agencies": {
+    "title": "Best Rebranding Agencies",
+    "description": "Article page for Best Rebranding Agencies.",
+    "path": "/blogs/best-rebranding-agencies",
+    "section": "blogs"
+  },
+  "blogs/best-saas-design-agencies": {
+    "title": "Best SaaS Design Agencies",
+    "description": "Article page for Best SaaS Design Agencies.",
+    "path": "/blogs/best-saas-design-agencies",
+    "section": "blogs"
+  },
+  "blogs/biometric-authentication-app-design": {
+    "title": "Biometric Authentication App Design",
+    "description": "Article page for Biometric Authentication App Design.",
+    "path": "/blogs/biometric-authentication-app-design",
+    "section": "blogs"
+  },
+  "blogs/brand-design-for-startups": {
+    "title": "Brand Design For Startups",
+    "description": "Article page for Brand Design For Startups.",
+    "path": "/blogs/brand-design-for-startups",
+    "section": "blogs"
+  },
+  "blogs/cross-platform-ux-design": {
+    "title": "Cross Platform UX Design",
+    "description": "Article page for Cross Platform UX Design.",
+    "path": "/blogs/cross-platform-ux-design",
+    "section": "blogs"
+  },
+  "blogs/design-systems-101-saas-guide": {
+    "title": "Design Systems 101 SaaS Guide",
+    "description": "Article page for Design Systems 101 SaaS Guide.",
+    "path": "/blogs/design-systems-101-saas-guide",
+    "section": "blogs"
+  },
+  "blogs/ecommerce-ux-conversion-optimization": {
+    "title": "Ecommerce UX Conversion Optimization",
+    "description": "Article page for Ecommerce UX Conversion Optimization.",
+    "path": "/blogs/ecommerce-ux-conversion-optimization",
+    "section": "blogs"
+  },
+  "blogs/figma-mobile-app-design-guide": {
+    "title": "Figma Mobile App Design Guide",
+    "description": "Article page for Figma Mobile App Design Guide.",
+    "path": "/blogs/figma-mobile-app-design-guide",
+    "section": "blogs"
+  },
+  "blogs/fintech-app-roi-guide": {
+    "title": "Fintech App ROI Guide",
+    "description": "Article page for Fintech App ROI Guide.",
+    "path": "/blogs/fintech-app-roi-guide",
+    "section": "blogs"
+  },
+  "blogs/fintech-digital-wallet-architecture-consulting": {
+    "title": "Fintech Digital Wallet Architecture Consulting",
+    "description": "Article page for Fintech Digital Wallet Architecture Consulting.",
+    "path": "/blogs/fintech-digital-wallet-architecture-consulting",
+    "section": "blogs"
+  },
+  "blogs/fintech-ux-design-gamification-and-biometric": {
+    "title": "Fintech UX Design Gamification And Biometric",
+    "description": "Article page for Fintech UX Design Gamification And Biometric.",
+    "path": "/blogs/fintech-ux-design-gamification-and-biometric",
+    "section": "blogs"
+  },
+  "blogs/golden-rules-of-ux-design": {
+    "title": "Golden Rules Of UX Design",
+    "description": "Article page for Golden Rules Of UX Design.",
+    "path": "/blogs/golden-rules-of-ux-design",
+    "section": "blogs"
+  },
+  "blogs/how-to-choose-ui-ux-agency-saas-startup": {
+    "title": "How To Choose UI UX Agency SaaS Startup",
+    "description": "Article page for How To Choose UI UX Agency SaaS Startup.",
+    "path": "/blogs/how-to-choose-ui-ux-agency-saas-startup",
+    "section": "blogs"
+  },
+  "blogs/innovative-fintech-startup-ideas": {
+    "title": "Innovative Fintech Startup Ideas",
+    "description": "Article page for Innovative Fintech Startup Ideas.",
+    "path": "/blogs/innovative-fintech-startup-ideas",
+    "section": "blogs"
+  },
+  "blogs/landing-page-design-best-practices": {
+    "title": "Landing Page Design Best Practices",
+    "description": "Article page for Landing Page Design Best Practices.",
+    "path": "/blogs/landing-page-design-best-practices",
+    "section": "blogs"
+  },
+  "blogs/mobile-app-development-cost-guide": {
+    "title": "Mobile App Development Cost Guide",
+    "description": "Article page for Mobile App Development Cost Guide.",
+    "path": "/blogs/mobile-app-development-cost-guide",
+    "section": "blogs"
+  },
+  "blogs/mobile-app-development-guide": {
+    "title": "Mobile App Development Guide",
+    "description": "Article page for Mobile App Development Guide.",
+    "path": "/blogs/mobile-app-development-guide",
+    "section": "blogs"
+  },
+  "blogs/mobile-app-redesign-guide": {
+    "title": "Mobile App Redesign Guide",
+    "description": "Article page for Mobile App Redesign Guide.",
+    "path": "/blogs/mobile-app-redesign-guide",
+    "section": "blogs"
+  },
+  "blogs/mobile-app-ux-design-guide": {
+    "title": "Mobile App UX Design Guide",
+    "description": "Article page for Mobile App UX Design Guide.",
+    "path": "/blogs/mobile-app-ux-design-guide",
+    "section": "blogs"
+  },
+  "blogs/progressive-web-apps-saas-complete-guide": {
+    "title": "Progressive Web Apps SaaS Complete Guide",
+    "description": "Article page for Progressive Web Apps SaaS Complete Guide.",
+    "path": "/blogs/progressive-web-apps-saas-complete-guide",
+    "section": "blogs"
+  },
+  "blogs/prototype-vs-wireframe-vs-mockup-guide": {
+    "title": "Prototype Vs Wireframe Vs Mockup Guide",
+    "description": "Article page for Prototype Vs Wireframe Vs Mockup Guide.",
+    "path": "/blogs/prototype-vs-wireframe-vs-mockup-guide",
+    "section": "blogs"
+  },
+  "blogs/reduce-customer-churn-ux-design-strategies": {
+    "title": "Reduce Customer Churn UX Design Strategies",
+    "description": "Article page for Reduce Customer Churn UX Design Strategies.",
+    "path": "/blogs/reduce-customer-churn-ux-design-strategies",
+    "section": "blogs"
+  },
+  "blogs/responsive-web-design-best-practices": {
+    "title": "Responsive Web Design Best Practices",
+    "description": "Article page for Responsive Web Design Best Practices.",
+    "path": "/blogs/responsive-web-design-best-practices",
+    "section": "blogs"
+  },
+  "blogs/saas-admin-dashboard-design-rebuilds": {
+    "title": "SaaS Admin Dashboard Design Rebuilds",
+    "description": "Article page for SaaS Admin Dashboard Design Rebuilds.",
+    "path": "/blogs/saas-admin-dashboard-design-rebuilds",
+    "section": "blogs"
+  },
+  "blogs/saas-dashboard-design-complete-guide": {
+    "title": "SaaS Dashboard Design Complete Guide",
+    "description": "Article page for SaaS Dashboard Design Complete Guide.",
+    "path": "/blogs/saas-dashboard-design-complete-guide",
+    "section": "blogs"
+  },
+  "blogs/saas-product-design-trends": {
+    "title": "SaaS Product Design Trends",
+    "description": "Article page for SaaS Product Design Trends.",
+    "path": "/blogs/saas-product-design-trends",
+    "section": "blogs"
+  },
+  "blogs/saas-ui-patterns-conversion": {
+    "title": "SaaS UI Patterns Conversion",
+    "description": "Article page for SaaS UI Patterns Conversion.",
+    "path": "/blogs/saas-ui-patterns-conversion",
+    "section": "blogs"
+  },
+  "blogs/saas-ux-redesign-for-conversions": {
+    "title": "SaaS UX Redesign For Conversions",
+    "description": "Article page for SaaS UX Redesign For Conversions.",
+    "path": "/blogs/saas-ux-redesign-for-conversions",
+    "section": "blogs"
+  },
+  "blogs/top-10-healthcare-website-design-agencies": {
+    "title": "Top 10 Healthcare Website Design Agencies",
+    "description": "Article page for Top 10 Healthcare Website Design Agencies.",
+    "path": "/blogs/top-10-healthcare-website-design-agencies",
+    "section": "blogs"
+  },
+  "blogs/top-mvp-development-companies": {
+    "title": "Top MVP Development Companies",
+    "description": "Article page for Top MVP Development Companies.",
+    "path": "/blogs/top-mvp-development-companies",
+    "section": "blogs"
+  },
+  "blogs/ux-design-agencies-in-new-york": {
+    "title": "UX Design Agencies In New York",
+    "description": "Article page for UX Design Agencies In New York.",
+    "path": "/blogs/ux-design-agencies-in-new-york",
+    "section": "blogs"
+  },
+  "blogs/ux-design-frameworks": {
+    "title": "UX Design Frameworks",
+    "description": "Article page for UX Design Frameworks.",
+    "path": "/blogs/ux-design-frameworks",
+    "section": "blogs"
+  },
+  "blogs/ux-patterns-for-mobile-app-retention": {
+    "title": "UX Patterns For Mobile App Retention",
+    "description": "Article page for UX Patterns For Mobile App Retention.",
+    "path": "/blogs/ux-patterns-for-mobile-app-retention",
+    "section": "blogs"
+  },
+  "blogs/ux-ui-design-cost-guide": {
+    "title": "UX UI Design Cost Guide",
+    "description": "Article page for UX UI Design Cost Guide.",
+    "path": "/blogs/ux-ui-design-cost-guide",
+    "section": "blogs"
+  },
+  "blogs/web-design-trends": {
+    "title": "Web Design Trends",
+    "description": "Article page for Web Design Trends.",
+    "path": "/blogs/web-design-trends",
+    "section": "blogs"
+  },
+  "blogs/website-redesign-cost": {
+    "title": "Website Redesign Cost",
+    "description": "Article page for Website Redesign Cost.",
+    "path": "/blogs/website-redesign-cost",
+    "section": "blogs"
+  },
+  "blogs/zero-to-one-design-system": {
+    "title": "Zero To One Design System",
+    "description": "Article page for Zero To One Design System.",
+    "path": "/blogs/zero-to-one-design-system",
+    "section": "blogs"
+  },
+  "case-studies/ai-image-generation-website": {
+    "title": "Ekeeda",
+    "description": "Case study for Ekeeda.",
+    "path": "/case-studies/ai-image-generation-website",
+    "section": "case-studies"
+  },
+  "case-studies/aladdin-genie": {
+    "title": "NIBODH",
+    "description": "Case study for NIBODH.",
+    "path": "/case-studies/aladdin-genie",
+    "section": "case-studies"
+  },
+  "case-studies/avara-fashion-branding": {
+    "title": "Neela Film Productions",
+    "description": "Case study for Neela Film Productions.",
+    "path": "/case-studies/avara-fashion-branding",
+    "section": "case-studies"
+  },
+  "case-studies/bluecat-modern-website": {
+    "title": "SuiB",
+    "description": "Case study for SuiB.",
+    "path": "/case-studies/bluecat-modern-website",
+    "section": "case-studies"
+  },
+  "case-studies/couriq-parcel-app": {
+    "title": "RAJ Computers",
+    "description": "Case study for RAJ Computers.",
+    "path": "/case-studies/couriq-parcel-app",
+    "section": "case-studies"
+  },
+  "case-studies/defenders-of-the-galaxy": {
+    "title": "NAPTEX",
+    "description": "Case study for NAPTEX.",
+    "path": "/case-studies/defenders-of-the-galaxy",
+    "section": "case-studies"
+  },
+  "case-studies/defenders-of-the-galaxy-2": {
+    "title": "Dis-Infect",
+    "description": "Case study for Dis-Infect.",
+    "path": "/case-studies/defenders-of-the-galaxy-2",
+    "section": "case-studies"
+  },
+  "case-studies/final-drive-sportsman": {
+    "title": "POKI",
+    "description": "Case study for POKI.",
+    "path": "/case-studies/final-drive-sportsman",
+    "section": "case-studies"
+  },
+  "case-studies/flowrix-website": {
+    "title": "RBRTH™",
+    "description": "Case study for RBRTH™.",
+    "path": "/case-studies/flowrix-website",
+    "section": "case-studies"
+  },
+  "case-studies/football-illustrations": {
+    "title": "Ekeeda",
+    "description": "Case study for Ekeeda.",
+    "path": "/case-studies/football-illustrations",
+    "section": "case-studies"
+  },
+  "case-studies/givehub-app": {
+    "title": "NIBODH",
+    "description": "Case study for NIBODH.",
+    "path": "/case-studies/givehub-app",
+    "section": "case-studies"
+  },
+  "case-studies/gourmeat-food-app": {
+    "title": "Neela Film Productions",
+    "description": "Case study for Neela Film Productions.",
+    "path": "/case-studies/gourmeat-food-app",
+    "section": "case-studies"
+  },
+  "case-studies/icc-world-cup-india-2023": {
+    "title": "SuiB",
+    "description": "Case study for SuiB.",
+    "path": "/case-studies/icc-world-cup-india-2023",
+    "section": "case-studies"
+  },
+  "case-studies/investiq-mobile-app-design": {
+    "title": "RAJ Computers",
+    "description": "Case study for RAJ Computers.",
+    "path": "/case-studies/investiq-mobile-app-design",
+    "section": "case-studies"
+  },
+  "case-studies/luxury-car-website": {
+    "title": "NAPTEX",
+    "description": "Case study for NAPTEX.",
+    "path": "/case-studies/luxury-car-website",
+    "section": "case-studies"
+  },
+  "case-studies/nexcard": {
+    "title": "Dis-Infect",
+    "description": "Case study for Dis-Infect.",
+    "path": "/case-studies/nexcard",
+    "section": "case-studies"
+  },
+  "case-studies/solar-tech-company-branding": {
+    "title": "POKI",
+    "description": "Case study for POKI.",
+    "path": "/case-studies/solar-tech-company-branding",
+    "section": "case-studies"
+  },
+  "case-studies/swift-wash-app": {
+    "title": "RBRTH™",
+    "description": "Case study for RBRTH™.",
+    "path": "/case-studies/swift-wash-app",
+    "section": "case-studies"
+  },
+  "case-studies/swipe-drinks-app": {
+    "title": "Ekeeda",
+    "description": "Case study for Ekeeda.",
+    "path": "/case-studies/swipe-drinks-app",
+    "section": "case-studies"
+  },
+  "case-studies/vetra-skincare-branding": {
+    "title": "NIBODH",
+    "description": "Case study for NIBODH.",
+    "path": "/case-studies/vetra-skincare-branding",
+    "section": "case-studies"
+  },
+  "case-studies/wink-shopping-website": {
+    "title": "Neela Film Productions",
+    "description": "Case study for Neela Film Productions.",
+    "path": "/case-studies/wink-shopping-website",
+    "section": "case-studies"
+  },
+  "case-studies/zuzu-mart": {
+    "title": "SuiB",
+    "description": "Case study for SuiB.",
+    "path": "/case-studies/zuzu-mart",
+    "section": "case-studies"
+  },
+  "case-studies/zypo-electric-bike-branding": {
+    "title": "RAJ Computers",
+    "description": "Case study for RAJ Computers.",
+    "path": "/case-studies/zypo-electric-bike-branding",
+    "section": "case-studies"
+  },
+  "refund-policy": {
+    "title": "Refund Policy",
+    "description": "Refund Policy page.",
+    "path": "/refund-policy",
+    "section": "refund-policy"
+  },
+  "services/ai-creative-production": {
+    "title": "Automation & AI Creative Systems",
+    "description": "Workflow automation, AI assistants, and production systems that remove repeated manual effort.",
+    "path": "/services/ai-creative-production",
+    "section": "services"
+  },
+  "services/brand-design": {
+    "title": "Brand & Product Identity",
+    "description": "A practical identity system for digital products, campaign pages, and startup launches.",
+    "path": "/services/brand-design",
+    "section": "services"
+  },
+  "services/creative-marketing": {
+    "title": "Creative Marketing & Growth Assets",
+    "description": "Conversion-focused campaign assets, landing pages, and launch materials for software and services.",
+    "path": "/services/creative-marketing",
+    "section": "services"
+  },
+  "services/custom-illustration": {
+    "title": "Custom Illustration & Interface Visual Systems",
+    "description": "Product visuals, explainers, icon systems, and interface graphics that make complex technology easier to trust.",
+    "path": "/services/custom-illustration",
+    "section": "services"
+  },
+  "services/full-stack-development": {
+    "title": "Custom Software Development",
+    "description": "Purpose-built platforms, internal tools, dashboards, and business systems designed around real workflows.",
+    "path": "/services/full-stack-development",
+    "section": "services"
+  },
+  "services/mobile-app-development": {
+    "title": "EdTech Platforms & Mobile Apps",
+    "description": "Mobile and cross-platform education products for students, educators, institutions, and growing teams.",
+    "path": "/services/mobile-app-development",
+    "section": "services"
+  },
+  "services/motion-design": {
+    "title": "Motion Design & Product Explainers",
+    "description": "Motion systems and explainer flows for product launches, onboarding, and feature education.",
+    "path": "/services/motion-design",
+    "section": "services"
+  },
+  "services/mvp-development": {
+    "title": "MVP Development",
+    "description": "A focused path from concept to usable product for founders who need speed without losing quality.",
+    "path": "/services/mvp-development",
+    "section": "services"
+  },
+  "services/saas-design": {
+    "title": "SaaS & Platform Design",
+    "description": "Dashboards, admin tools, subscription products, and B2B SaaS experiences built for clarity and retention.",
+    "path": "/services/saas-design",
+    "section": "services"
+  },
+  "services/ui-ux-design": {
+    "title": "AI Engineering & Product UX",
+    "description": "Custom AI solutions, machine learning models, and intelligent systems shaped into interfaces people can understand and trust.",
+    "path": "/services/ui-ux-design",
+    "section": "services"
+  },
+  "services/webflow-expert-agency": {
+    "title": "Web Platform Development",
+    "description": "Fast, responsive web platforms, marketing sites, and product pages built with modern web standards.",
+    "path": "/services/webflow-expert-agency",
+    "section": "services"
+  }
+}
