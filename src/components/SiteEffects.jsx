@@ -98,6 +98,65 @@ export function SiteEffects() {
         }, 2600);
       }
 
+      const slider = document.querySelector('[data-company-slider]');
+      let companyTimer;
+      const companyCleanups = [];
+      if (slider) {
+        const track = slider.querySelector('.company-track');
+        const cards = Array.from(slider.querySelectorAll('.company-card'));
+        const dots = slider.querySelector('.company-dots');
+        const prev = slider.querySelector('[data-company-prev]');
+        const next = slider.querySelector('[data-company-next]');
+        let index = 0;
+        let paused = false;
+
+        if (track && cards.length) {
+          const setSlide = (nextIndex, behavior = 'smooth') => {
+            index = (nextIndex + cards.length) % cards.length;
+            cards.forEach((card, cardIndex) => card.classList.toggle('is-active', cardIndex === index));
+            dots?.querySelectorAll('button').forEach((dot, dotIndex) => dot.classList.toggle('is-active', dotIndex === index));
+            track.scrollTo({ left: cards[index].offsetLeft - track.offsetLeft, behavior });
+          };
+          const advance = (direction = 1) => setSlide(index + direction);
+          const handlePrev = () => advance(-1);
+          const handleNext = () => advance(1);
+          const pause = () => { paused = true; };
+          const resume = () => { paused = false; };
+
+          if (dots) {
+            dots.innerHTML = '';
+            cards.forEach((card, dotIndex) => {
+              const dot = document.createElement('button');
+              dot.type = 'button';
+              dot.setAttribute('aria-label', `Show ${card.querySelector('h3')?.textContent || `company ${dotIndex + 1}`}`);
+              dot.addEventListener('click', () => setSlide(dotIndex));
+              dots.appendChild(dot);
+            });
+          }
+
+          prev?.addEventListener('click', handlePrev);
+          next?.addEventListener('click', handleNext);
+          track.addEventListener('mouseenter', pause);
+          track.addEventListener('mouseleave', resume);
+          track.addEventListener('focusin', pause);
+          track.addEventListener('focusout', resume);
+          companyCleanups.push(
+            () => prev?.removeEventListener('click', handlePrev),
+            () => next?.removeEventListener('click', handleNext),
+            () => track.removeEventListener('mouseenter', pause),
+            () => track.removeEventListener('mouseleave', resume),
+            () => track.removeEventListener('focusin', pause),
+            () => track.removeEventListener('focusout', resume),
+          );
+          setSlide(0, 'auto');
+          if (!reduceMotion) {
+            companyTimer = window.setInterval(() => {
+              if (!paused) advance(1);
+            }, 3200);
+          }
+        }
+      }
+
       // GSAP Horizontal ScrollTrigger for card rails
       const hSections = Array.from(document.querySelectorAll('.gsap-h-section'));
       const hTriggers = [];
@@ -135,6 +194,8 @@ export function SiteEffects() {
         window.clearTimeout(safetyTimer);
         revealObserver.disconnect();
         if (timer) window.clearInterval(timer);
+        if (companyTimer) window.clearInterval(companyTimer);
+        companyCleanups.forEach((cleanupFn) => cleanupFn());
         hTriggers.forEach((st) => st?.kill());
         document.body.style.overflow = '';
       };
