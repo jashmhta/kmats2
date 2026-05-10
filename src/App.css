@@ -3633,29 +3633,18 @@ html.js-reveal .why-grid [data-reveal].is-visible {
 }
 
 @media (max-width: 760px) {
-  .gsap-h-track .case-card,
-  .gsap-h-track .benefit-card,
+  .gsap-h-track .case-card {
+    flex: 0 0 85vw;
+    min-height: 360px;
+  }
+
+  .gsap-h-track .benefit-card {
+    flex: 0 0 85vw;
+    min-height: 260px;
+  }
+
   .gsap-h-track .company-card {
-    flex: 0 0 82vw;
-  }
-
-  /* Mobile: horizontal sections become touch-scrollable rails, not pinned */
-  .gsap-h-section {
-    overflow: visible;
-  }
-
-  .gsap-h-wrapper {
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: thin;
-    padding-bottom: 18px;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .gsap-h-track {
-    gap: 14px;
-    padding-right: 6vw;
+    flex: 0 0 80vw;
   }
 }
 
