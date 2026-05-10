@@ -9,8 +9,8 @@ Allow: /
 Disallow: /*.map$
 
 # Sitemap location - helps search engines find all public pages
-Sitemap: https://kmats.in/sitemap.xml
+Sitemap: https://kmats2.netlify.app/sitemap.xml
 
 # Additional Sitemaps (if you create them in the future)
-# Sitemap: https://kmats.in/sitemap-products.xml
-# Sitemap: https://kmats.in/sitemap-images.xml
+# Sitemap: https://kmats2.netlify.app/sitemap-products.xml
+# Sitemap: https://kmats2.netlify.app/sitemap-images.xml

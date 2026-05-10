@@ -6,649 +6,649 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- KMATS sitemap generated from master, revamp, and static-route parity sources. -->
 <url>
-  <loc>https://kmats.in/</loc>
+  <loc>https://kmats2.netlify.app/</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services</loc>
+  <loc>https://kmats2.netlify.app/services</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://kmats.in/marketplace</loc>
+  <loc>https://kmats2.netlify.app/marketplace</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://kmats.in/startup-partnership</loc>
+  <loc>https://kmats2.netlify.app/startup-partnership</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies</loc>
+  <loc>https://kmats2.netlify.app/case-studies</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://kmats.in/about</loc>
+  <loc>https://kmats2.netlify.app/about</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://kmats.in/contact</loc>
+  <loc>https://kmats2.netlify.app/contact</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://kmats.in/pricing</loc>
+  <loc>https://kmats2.netlify.app/pricing</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/templates</loc>
+  <loc>https://kmats2.netlify.app/templates</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs</loc>
+  <loc>https://kmats2.netlify.app/blogs</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/free-resource</loc>
+  <loc>https://kmats2.netlify.app/free-resource</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/career</loc>
+  <loc>https://kmats2.netlify.app/career</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/author-page</loc>
+  <loc>https://kmats2.netlify.app/author-page</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/style-guide</loc>
+  <loc>https://kmats2.netlify.app/style-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/refund-policy</loc>
+  <loc>https://kmats2.netlify.app/refund-policy</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/privacy-policy</loc>
+  <loc>https://kmats2.netlify.app/privacy-policy</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/terms-of-service</loc>
+  <loc>https://kmats2.netlify.app/terms-of-service</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/ai-ethics-data-policy</loc>
+  <loc>https://kmats2.netlify.app/ai-ethics-data-policy</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/intellectual-property-policy</loc>
+  <loc>https://kmats2.netlify.app/intellectual-property-policy</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/nda</loc>
+  <loc>https://kmats2.netlify.app/nda</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/3-second-rule-in-ux</loc>
+  <loc>https://kmats2.netlify.app/blogs/3-second-rule-in-ux</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/4-cs-of-ux-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/4-cs-of-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/5-planes-of-ux-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/5-planes-of-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/5-principles-of-ux-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/5-principles-of-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/5-ws-in-ux-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/5-ws-in-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/60-30-10-rule-ui-ux-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/60-30-10-rule-ui-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/7-pillars-of-ux-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/7-pillars-of-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/80-20-rule-ux-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/80-20-rule-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/accessibility-in-ui-ux-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/accessibility-in-ui-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/ai-driven-ux-patterns-saas</loc>
+  <loc>https://kmats2.netlify.app/blogs/ai-driven-ux-patterns-saas</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/ai-is-changing-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/ai-is-changing-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/app-performance-ui-ux-optimization</loc>
+  <loc>https://kmats2.netlify.app/blogs/app-performance-ui-ux-optimization</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/b2b-saas-dashboard-design-examples</loc>
+  <loc>https://kmats2.netlify.app/blogs/b2b-saas-dashboard-design-examples</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/b2b-vs-b2c-saas-design-differences</loc>
+  <loc>https://kmats2.netlify.app/blogs/b2b-vs-b2c-saas-design-differences</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/bento-grid-dashboard-design-aesthetics</loc>
+  <loc>https://kmats2.netlify.app/blogs/bento-grid-dashboard-design-aesthetics</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/best-figma-plugins-ui-kits</loc>
+  <loc>https://kmats2.netlify.app/blogs/best-figma-plugins-ui-kits</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/best-mobile-app-design-agencies</loc>
+  <loc>https://kmats2.netlify.app/blogs/best-mobile-app-design-agencies</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/best-rebranding-agencies</loc>
+  <loc>https://kmats2.netlify.app/blogs/best-rebranding-agencies</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/best-saas-design-agencies</loc>
+  <loc>https://kmats2.netlify.app/blogs/best-saas-design-agencies</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/biometric-authentication-app-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/biometric-authentication-app-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/brand-design-for-startups</loc>
+  <loc>https://kmats2.netlify.app/blogs/brand-design-for-startups</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/cross-platform-ux-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/cross-platform-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/design-systems-101-saas-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/design-systems-101-saas-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/ecommerce-ux-conversion-optimization</loc>
+  <loc>https://kmats2.netlify.app/blogs/ecommerce-ux-conversion-optimization</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/figma-mobile-app-design-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/figma-mobile-app-design-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/fintech-app-roi-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/fintech-app-roi-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/fintech-digital-wallet-architecture-consulting</loc>
+  <loc>https://kmats2.netlify.app/blogs/fintech-digital-wallet-architecture-consulting</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/fintech-ux-design-gamification-and-biometric</loc>
+  <loc>https://kmats2.netlify.app/blogs/fintech-ux-design-gamification-and-biometric</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/golden-rules-of-ux-design</loc>
+  <loc>https://kmats2.netlify.app/blogs/golden-rules-of-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/how-to-choose-ui-ux-agency-saas-startup</loc>
+  <loc>https://kmats2.netlify.app/blogs/how-to-choose-ui-ux-agency-saas-startup</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/innovative-fintech-startup-ideas</loc>
+  <loc>https://kmats2.netlify.app/blogs/innovative-fintech-startup-ideas</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/landing-page-design-best-practices</loc>
+  <loc>https://kmats2.netlify.app/blogs/landing-page-design-best-practices</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/mobile-app-development-cost-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/mobile-app-development-cost-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/mobile-app-development-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/mobile-app-development-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/mobile-app-redesign-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/mobile-app-redesign-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/mobile-app-ux-design-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/mobile-app-ux-design-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/progressive-web-apps-saas-complete-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/progressive-web-apps-saas-complete-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/prototype-vs-wireframe-vs-mockup-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/prototype-vs-wireframe-vs-mockup-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/reduce-customer-churn-ux-design-strategies</loc>
+  <loc>https://kmats2.netlify.app/blogs/reduce-customer-churn-ux-design-strategies</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/responsive-web-design-best-practices</loc>
+  <loc>https://kmats2.netlify.app/blogs/responsive-web-design-best-practices</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/saas-admin-dashboard-design-rebuilds</loc>
+  <loc>https://kmats2.netlify.app/blogs/saas-admin-dashboard-design-rebuilds</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/saas-dashboard-design-complete-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/saas-dashboard-design-complete-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/saas-product-design-trends</loc>
+  <loc>https://kmats2.netlify.app/blogs/saas-product-design-trends</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/saas-ui-patterns-conversion</loc>
+  <loc>https://kmats2.netlify.app/blogs/saas-ui-patterns-conversion</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/saas-ux-redesign-for-conversions</loc>
+  <loc>https://kmats2.netlify.app/blogs/saas-ux-redesign-for-conversions</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/top-10-healthcare-website-design-agencies</loc>
+  <loc>https://kmats2.netlify.app/blogs/top-10-healthcare-website-design-agencies</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/top-mvp-development-companies</loc>
+  <loc>https://kmats2.netlify.app/blogs/top-mvp-development-companies</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/ux-design-agencies-in-new-york</loc>
+  <loc>https://kmats2.netlify.app/blogs/ux-design-agencies-in-new-york</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/ux-design-frameworks</loc>
+  <loc>https://kmats2.netlify.app/blogs/ux-design-frameworks</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/ux-patterns-for-mobile-app-retention</loc>
+  <loc>https://kmats2.netlify.app/blogs/ux-patterns-for-mobile-app-retention</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/ux-ui-design-cost-guide</loc>
+  <loc>https://kmats2.netlify.app/blogs/ux-ui-design-cost-guide</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/web-design-trends</loc>
+  <loc>https://kmats2.netlify.app/blogs/web-design-trends</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/website-redesign-cost</loc>
+  <loc>https://kmats2.netlify.app/blogs/website-redesign-cost</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/blogs/zero-to-one-design-system</loc>
+  <loc>https://kmats2.netlify.app/blogs/zero-to-one-design-system</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/ai-image-generation-website</loc>
+  <loc>https://kmats2.netlify.app/case-studies/ai-image-generation-website</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/aladdin-genie</loc>
+  <loc>https://kmats2.netlify.app/case-studies/aladdin-genie</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/avara-fashion-branding</loc>
+  <loc>https://kmats2.netlify.app/case-studies/avara-fashion-branding</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/bluecat-modern-website</loc>
+  <loc>https://kmats2.netlify.app/case-studies/bluecat-modern-website</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/couriq-parcel-app</loc>
+  <loc>https://kmats2.netlify.app/case-studies/couriq-parcel-app</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/defenders-of-the-galaxy</loc>
+  <loc>https://kmats2.netlify.app/case-studies/defenders-of-the-galaxy</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/defenders-of-the-galaxy-2</loc>
+  <loc>https://kmats2.netlify.app/case-studies/defenders-of-the-galaxy-2</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/final-drive-sportsman</loc>
+  <loc>https://kmats2.netlify.app/case-studies/final-drive-sportsman</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/flowrix-website</loc>
+  <loc>https://kmats2.netlify.app/case-studies/flowrix-website</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/football-illustrations</loc>
+  <loc>https://kmats2.netlify.app/case-studies/football-illustrations</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/givehub-app</loc>
+  <loc>https://kmats2.netlify.app/case-studies/givehub-app</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/gourmeat-food-app</loc>
+  <loc>https://kmats2.netlify.app/case-studies/gourmeat-food-app</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/icc-world-cup-india-2023</loc>
+  <loc>https://kmats2.netlify.app/case-studies/icc-world-cup-india-2023</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/investiq-mobile-app-design</loc>
+  <loc>https://kmats2.netlify.app/case-studies/investiq-mobile-app-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/luxury-car-website</loc>
+  <loc>https://kmats2.netlify.app/case-studies/luxury-car-website</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/nexcard</loc>
+  <loc>https://kmats2.netlify.app/case-studies/nexcard</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/solar-tech-company-branding</loc>
+  <loc>https://kmats2.netlify.app/case-studies/solar-tech-company-branding</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/swift-wash-app</loc>
+  <loc>https://kmats2.netlify.app/case-studies/swift-wash-app</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/swipe-drinks-app</loc>
+  <loc>https://kmats2.netlify.app/case-studies/swipe-drinks-app</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/vetra-skincare-branding</loc>
+  <loc>https://kmats2.netlify.app/case-studies/vetra-skincare-branding</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/wink-shopping-website</loc>
+  <loc>https://kmats2.netlify.app/case-studies/wink-shopping-website</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/zuzu-mart</loc>
+  <loc>https://kmats2.netlify.app/case-studies/zuzu-mart</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/case-studies/zypo-electric-bike-branding</loc>
+  <loc>https://kmats2.netlify.app/case-studies/zypo-electric-bike-branding</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/ai-creative-production</loc>
+  <loc>https://kmats2.netlify.app/services/ai-creative-production</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/brand-design</loc>
+  <loc>https://kmats2.netlify.app/services/brand-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/creative-marketing</loc>
+  <loc>https://kmats2.netlify.app/services/creative-marketing</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/custom-illustration</loc>
+  <loc>https://kmats2.netlify.app/services/custom-illustration</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/full-stack-development</loc>
+  <loc>https://kmats2.netlify.app/services/full-stack-development</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/mobile-app-development</loc>
+  <loc>https://kmats2.netlify.app/services/mobile-app-development</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/motion-design</loc>
+  <loc>https://kmats2.netlify.app/services/motion-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/mvp-development</loc>
+  <loc>https://kmats2.netlify.app/services/mvp-development</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/saas-design</loc>
+  <loc>https://kmats2.netlify.app/services/saas-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/ui-ux-design</loc>
+  <loc>https://kmats2.netlify.app/services/ui-ux-design</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://kmats.in/services/webflow-expert-agency</loc>
+  <loc>https://kmats2.netlify.app/services/webflow-expert-agency</loc>
   <lastmod>2026-05-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.7</priority>

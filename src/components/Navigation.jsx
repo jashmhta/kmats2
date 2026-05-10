@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ThemeToggle } from './ThemeToggle';
 
 const serviceLinks = [
   ['All Services', '/services/'],
@@ -63,7 +62,6 @@ export function Navigation() {
         </div>
       </nav>
       <div className="header-actions">
-        <ThemeToggle />
         <a className="header-cta" href="/contact/">Let's Connect</a>
         <button className="menu-toggle" type="button" aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open} aria-controls="main-nav" onClick={() => setOpen((value) => !value)}>
           <span></span><span></span>
